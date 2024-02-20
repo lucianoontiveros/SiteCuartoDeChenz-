@@ -29,7 +29,7 @@ const Blog = () => {
                 </div>
                 <div className="col-md-4">
                     <div className="card my-4">
-                        <h5 className="card-header">Buscar</h5>
+                        <h5 className="card-header">Buscar Blogs</h5>
                         <div className="card-body">
                             <div className="input-group">
                                 <input type="text" className="form-control" placeholder="Buscar..." />
