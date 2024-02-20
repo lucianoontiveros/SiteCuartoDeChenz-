@@ -4,6 +4,7 @@ import Home from '../Pages/Home'
 import Blog, { loaderBlog } from '../Pages/Blog'
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
+import Post, { loaderPost } from "../Components/Post";
 
 export const router = createBrowserRouter([
     {
@@ -12,6 +13,7 @@ export const router = createBrowserRouter([
         errorElement: < NotFound />,
         children: [
             {
+                
                 index:"true",
                 element: <Home />,
             },
@@ -24,6 +26,12 @@ export const router = createBrowserRouter([
                 element: <Blog />,
                 loader: loaderBlog,
             },
+            {
+                path: '/blog/:id',
+                element: <Post />,
+                loader: loaderPost,
+            },
+            
         ]
     },
     

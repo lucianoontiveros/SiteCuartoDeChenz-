@@ -54,7 +54,12 @@ export const loaderBlog = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts')
     // Convertimos la respuesta a JSON
     const posts = await res.json() 
-
+    if(!res.ok) {
+        throw{
+            status: res.status,
+            statusText: "Code: " + res.status, 
+        }
+    }
     // Devolvemos los datos de las publicaciones
     return {posts}
 }
