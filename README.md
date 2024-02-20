@@ -8,4 +8,4 @@ Esta plantilla es parte de un ejercicio de un curso muy completo del creador de 
 
 Mis primeras páginas webs tendrán estas estructuras y a medida que las versiones se vayan actualizando, procederé a hacer los cambios necesarios. Por el momento estoy muy feliz con lo aprendido, aunque si bien este curso lo hice hace varios meses, hacer un repaso nunca está de más. 
 
-Te comparto los links de los recursos que me permitieron seguir paso a paso los ejercicios. 
+Te comparto los links de los recursos que me permitieron seguir paso a paso los ejercicios.
