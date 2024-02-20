@@ -9,3 +9,5 @@ Esta plantilla es parte de un ejercicio de un curso muy completo del creador de 
 
 - [Manual de Bluuweb](https://bluuweb.dev/05-react/06-context-auth.html "Manual de Bluuweb")
 - [Curso de  React JS y Next 14 (app router) este 2024](https://www.udemy.com/course/curso-react-js/learn/lecture/35323510#learning-tools "Curso de  React JS y Next 14 (app router) este 2024")
+
+
