@@ -5,6 +5,7 @@ import Blog, { loaderBlog } from '../Pages/Blog'
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
 import Post, { loaderPost } from "../Components/Post";
+import App from "../App.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 
-                index:"true",
+                index: true,
                 element: <Home />,
             },
             {
