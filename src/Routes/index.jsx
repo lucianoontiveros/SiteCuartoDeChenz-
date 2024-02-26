@@ -5,6 +5,7 @@ import Blog, { loaderBlog } from '../Pages/Blog'
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
 import Post, { loaderPost } from "../Components/Post";
+
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -30,7 +31,6 @@ export const router = createBrowserRouter([
                 element: <Post />,
                 loader: loaderPost,
             },
-            
         ]
     },
     

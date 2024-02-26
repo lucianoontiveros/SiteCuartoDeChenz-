@@ -41,10 +41,10 @@ const Navbar = () => {
     <>
         <nav>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="https://github.com/lucianoontiveros" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={iconSite} className="h-8" alt="Flowbite Logo" />
                     <span className="self-center text-white text-2xl font-semibold whitespace-nowrap" >Dev<span className='text-indigo-400 md:text-green-400'>Utility</span></span>
-                </a>
+                </NavLink>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-indigo-400 md:text-green-400 rounded-lg md:hidden" aria-controls="navbar-cta" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
