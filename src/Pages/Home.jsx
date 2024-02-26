@@ -9,13 +9,13 @@ import FirstTitle from '../Components/FirstTitle';
 
 const Home = () => {
   return (
-    <div className="container min-h-[100%] flex flex-row flex-wrap justify-around items-center bg-[#0d255248] p-3 sm:bg-[#3b0764]  md:bg-[#1e1b4b]  lg:bg-[#083344] lg:flex-wrap-reverse xl:[#09090b]">
+    <div className="container max-h-[70%] flex flex-row flex-wrap justify-around items-center bg-[#0d255248] p-3 sm:bg-[#3b0764]  md:bg-[#1e1b4b]  lg:bg-[#083344] lg:flex-wrap-reverse xl:[#09090b]">
 
       <Title />
       
 
       {/* Card vite */}
-      <div className="w-full flex order-1 text-white flex-col justify-center items-center m-2 min-h-[300px] lg:max-w-md rounded-lg sm:my-[3em]  sm:max-w-[300px] lg:my-[3.5em] ">
+      <div className="w-full flex order-1 text-white flex-col justify-center items-center  min-h-[300px] lg:max-w-md rounded-lg sm:mt-[3em]  sm:max-w-[350px] lg:mb-[0.7em]  ">
         <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">
           <img className='sm:max-w-[150px] md:max-w-[100px] md:max-h-[100px]' src={iconVite} alt="Vite Icon" />     
         </a>
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
        {/* Card React */}
-      <div className="w-full flex order-2 text-white flex-col justify-center items-center m-2 min-h-[300px] lg:max-w-md rounded-lg sm:my-[3em]  sm:max-w-[300px] lg:my-[3.5em] ">
+      <div className="w-full flex order-2 text-white flex-col justify-center items-center  min-h-[300px] lg:max-w-md rounded-lg sm:mt-[3em]  sm:max-w-[350px] lg:mb-[0.7em]  ">
         <a href="https://es.react.dev/" target='_blank' rel="noopener noreferrer">
           <img className='sm:max-w-[150px] md:max-w-[100px] md:max-h-[100px]' src={iconReact} alt="React Icon" />
         </a>
@@ -33,7 +33,7 @@ const Home = () => {
       </div>
 
       {/* Card Tailwind */}
-      <div className="w-full flex  text-white flex-col justify-center items-center m-2 min-h-[300px] lg:max-w-md rounded-lg sm:my-[3em]  sm:max-w-[300px] lg:my-[3.5em] ">
+      <div className="w-full flex  text-white flex-col justify-center items-center  min-h-[300px] lg:max-w-md rounded-lg sm:mt-[3em]  sm:max-w-[350px] lg:mb-[0.7em]  ">
         <a href="https://tailwindcss.com/" target='_blank' rel="noopener noreferrer">
           <img className='sm:max-w-[150px] md:max-w-[100px] md:max-h-[100px]' src={iconTailwind} alt="Tailwind Icon" />
         </a>
@@ -44,7 +44,7 @@ const Home = () => {
       <FirstTitle />
 
       {/* Card Flowbite */}
-      <div className="w-full flex text-white flex-col justify-center items-center m-2 min-h-[300px] lg:max-w-md rounded-lg sm:my-[3em]  sm:max-w-[300px] lg:my-[3.5em] ">
+      <div className="w-full flex text-white flex-col justify-center items-center  min-h-[300px] lg:max-w-md rounded-lg sm:mt-[3em]  sm:max-w-[350px] lg:mb-[0.7em]  ">
         <a href="https://www.flowbite-react.com/" target='_blank' rel="noopener noreferrer">
           <img className='sm:max-w-[150px] md:max-w-[100px] md:max-h-[100px]' src={iconFlowbite} alt="Flowbite Icon" />
         </a>
