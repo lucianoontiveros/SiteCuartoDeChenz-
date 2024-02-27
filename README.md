@@ -49,3 +49,13 @@ Esta plantilla es parte de un ejercicio de un curso muy completo del creador de 
 
 | [![Bluuweb ](readMeImage_1.png "Bluuweb ")](https://bluuweb.dev/05-react/06-context-auth.html "Bluuweb ") | Mis primeras páginas webs tendrán estas estructuras y a medida que las versiones se vayan actualizando, procederé a hacer los cambios necesarios. Por el momento estoy muy feliz con lo aprendido, aunque si bien este curso lo hice hace varios meses, hacer un repaso nunca está de más. Te comparto los links de los recursos que me permitieron seguir paso a paso los ejercicios: |
 | :-------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+## Por último
+
+Te agradezco que te tomarás el tiempo de leer. Te dejo mis redes, ya que por las tardes estoy estudiando programación en vivo bajo el formato "Study With Me" por si quieres sumarte o consultarme algo en específico.
+
+- [Twitter](https://twitter.com/AgustnOntivero6 "Twitter")
+- [Instagram](http://https://www.instagram.com/luciano.a.ontiveros/ "Instagram")
+- [Twitch ](https://twitch.tv/cuartodechenz "Twitch ")
+- [Threads](https://www.threads.net/@luciano.a.ontiveros?hl=es-la "Threads")
+- [Discord](https://discord.gg/UdU3wvpWu7 "Discord")
