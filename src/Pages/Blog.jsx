@@ -4,20 +4,20 @@ import { Link, useLoaderData, useSearchParams } from "react-router-dom";
 // Definimos el componente Blog
 const Blog = () => {
   // Usamos el hook useLoaderData para obtener los datos de las publicaciones del blog
-  // Usamos el hook useLoaderData para obtener los datos de las publicaciones del blog
-  // Este hook carga los datos que se devuelven de la función loaderBlog
-  const { posts } = useLoaderData();
-  const [searchParams, setSearchParams] = useSearchParams();
-  const [searchTerm, setSearchTerm] = useState("");
+  const { posts } = useLoaderData(); // Obtener los datos de las publicaciones del blog utilizando el hook useLoaderData
+  const [searchParams, setSearchParams] = useSearchParams(); // Obtener los parámetros de búsqueda de la URL
+  const [searchTerm, setSearchTerm] = useState(""); // Estado para almacenar el término de búsqueda
 
+  // Función para manejar el cambio en el campo de búsqueda
   const handleChange = (event) => {
-    setSearchTerm(event.target.value);
-    setSearchParams({ filter: event.target.value });
+    setSearchTerm(event.target.value); // Actualizar el estado con el término de búsqueda
+    setSearchParams({ filter: event.target.value }); // Actualizar los parámetros de búsqueda en la URL
   };
 
+  // Función para manejar la pulsación de tecla en el campo de búsqueda
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
-      setSearchParams({ filter: event.target.value });
+      setSearchParams({ filter: event.target.value }); // Actualizar los parámetros de búsqueda en la URL
       event.preventDefault(); // Evitar el comportamiento predeterminado de enviar el formulario
     }
   };
@@ -65,9 +65,9 @@ const Blog = () => {
                 className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Search Mockups, Logos..."
                 value={searchTerm}
-                onChange={handleChange}
+                onChange={handleChange} // Manejar cambios en el campo de búsqueda
                 onBlur={handleChange}
-                onKeyDown={handleKeyDown} // Reemplazar onKeyPress por onKeyDown
+                onKeyDown={handleKeyDown} // Manejar pulsaciones de tecla en el campo de búsqueda
                 required
               />
             </div>
