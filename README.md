@@ -8,7 +8,7 @@ La presente página web está enfocada al uso personal, y me resultaba imprescin
 
 El sitio web cuenta con tres sesiones:
 
-- **INICIO **=> src\Pages\Home.jsx
+- **INICIO** => src\Pages\Home.jsx
 - **TECNOLOGÍAS** => src\Pages\About.jsx
 - **BLOG** => src\Pages\Blog.jsx
 
