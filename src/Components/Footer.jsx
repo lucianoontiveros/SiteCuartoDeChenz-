@@ -1,41 +1,45 @@
-import React from 'react';
+import iconX from '../assets/iconX.png'
+import iconInsta from '../assets/iconInsta.png'
+import iconGitHub from '../assets/iconGitHub.png'
+import iconTwitch from '../assets/iconTwitch.png'
+import iconThreads from '../assets/iconThreads.png'
+import iconDiscord from '../assets/iconDiscord.png'
+
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-center text-lg-start">
-      <div className="container p-4">
-        <div className="row">
-          <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Mi Footer</h5>
-            <p>
-              Aquí puedes poner lo que quieras, como información sobre tu empresa, enlaces útiles, etc.
-            </p>
+    <footer className="mt-auto bg-gray-900  text-white p-4 rounded ">
+      <div className=" items-center sm:flex sm:items-center sm:justify-between">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">DevUtility™</a>. All Rights Reserved.
+          </span>
+          <div className="flex mt-4 justify-around sm:justify-center sm:mt-0">
+              <a href="https://twitter.com/AgustnOntivero6" className=" text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <img className='max-w-[15px]' src={iconX} alt="x" />
+              </a>
+              <a href="https://www.instagram.com/luciano.a.ontiveros/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <img className='max-w-[15px]' src={iconInsta} alt="Instagram" />
+              </a>
+              <a href="https://twitch.tv/cuartodechenz" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <img className='max-w-[15px]' src={iconTwitch} alt="Twitch" />
+              </a>
+              <a href="https://github.com/lucianoontiveros" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <img className='max-w-[15px]' src={iconGitHub} alt="GitHub" />
+              </a>
+              <a href="https://www.threads.net/@luciano.a.ontiveros?hl=es-la" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+              <img className='max-w-[15px]' src={iconThreads} alt="Threads" />
+              </a>
+              <a href="https://discord.gg/UdU3wvpWu7" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <img className='max-w-[15px]' src={iconDiscord} alt="Discord" />
+              </a>
+              
           </div>
-          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Enlaces</h5>
-            <ul className="list-unstyled mb-0">
-              <li>
-                <a href="#!" className="text-dark">Enlace 1</a>
-              </li>
-              <li>
-                <a href="#!" className="text-dark">Enlace 2</a>
-              </li>
-              <li>
-                <a href="#!" className="text-dark">Enlace 3</a>
-              </li>
-              <li>
-                <a href="#!" className="text-dark">Enlace 4</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-        © 2024 Copyright:
-        <a className="text-dark" href="https://mdbootstrap.com/">mdbootstrap.com</a>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
+
+
+
+
