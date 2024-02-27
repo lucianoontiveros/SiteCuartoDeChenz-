@@ -14,7 +14,7 @@ El sitio web cuenta con tres sesiones:
 
 [Aquí puedes revisar el Template router ](https://templaterouter.netlify.app/)
 
-![Estructura](src\assets\ImgPresentacion.png "Estructura")
+[![Estructura](src/assets/ImgPresentacion.png "Estructura")](https://bluuweb.dev/05-react/06-context-auth.html "Estructura")
 
 Para el caso particular, el Home contiene una presentación de las tecnologías del proyecto, seguido del About, que contiene una breve descripción de estas tecnologías y las versiones utilizadas, finalizando con la sección Blog en el cual llamamos a un API para que nos devuelva contenido y poder filtrar los resultados a través de una barra de búsqueda.
 
