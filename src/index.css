@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: black; /* Asegura que el body tenga al menos la altura de la ventana del navegador */
+
+
+.border-glow {
+    border: 0.5px solid transparent; /* Borde transparente inicial */
+    box-shadow: 0 0 10px #0B9B8A; /* Brillo verde */
+    transition: box-shadow 0.3s ease; /* Transición suave */
+}
+.border-glow:hover {
+    box-shadow: 0 0 20px #67DDAB; /* Brillo más intenso al pasar el cursor */
 }
