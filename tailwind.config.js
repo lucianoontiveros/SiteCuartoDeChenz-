@@ -17,6 +17,10 @@ export default {
         // Puedes definir más colores según tus necesidades
       },
     },
+    container: {
+      center: true,
+      background: "#0B9B8A",
+    },
   },
   plugins: [require("flowbite/plugin")],
 };

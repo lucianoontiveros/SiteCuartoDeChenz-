@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .border-glow {
-    border: 0.5px solid transparent; /* Borde transparente inicial */
-    box-shadow: 0 0 10px #0B9B8A; /* Brillo verde */
-    transition: box-shadow 0.3s ease; /* Transición suave */
+  border: 0.5px solid transparent; /* Borde transparente inicial */
+  box-shadow: 0 0 10px #0b9b8a; /* Brillo verde */
+  transition: box-shadow 0.3s ease; /* Transición suave */
 }
 .border-glow:hover {
-    box-shadow: 0 0 20px #67DDAB; /* Brillo más intenso al pasar el cursor */
+  box-shadow: 0 0 20px #67ddab; /* Brillo más intenso al pasar el cursor */
 }

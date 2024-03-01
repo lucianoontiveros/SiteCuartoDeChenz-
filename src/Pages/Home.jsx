@@ -1,12 +1,17 @@
+import _Carousel from "../Components/_Carousel";
+
 const Home = () => {
   return (
-    <header className="flex mt-2 justify-center ">
-      <img
-        className="border-glow  max-w-[600px] rounded-lg"
-        src="src/assets/img_loop.gif"
-        alt="image description"
-      />
-    </header>
+    <div className="relative">
+      <div className="container  mx-auto  flex justify-center items-center h-[150px] w-auto sm:h-[300px] xl:h-[500px] sm:w-[900] ">
+        <_Carousel />
+        <div className="absolute">
+          <h1 className=" text-skyBlue  text-9xl font-mono uppercase">
+            Cuarto de Chenz
+          </h1>
+        </div>
+      </div>
+    </div>
   );
 };
 
