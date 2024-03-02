@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import About from "../Pages/About";
-import Home from "../Pages/Home";
+import Avisos from "../Pages/Avisos";
+import Inicio from "../Pages/Inicio";
 import Blog, { loaderBlog } from "../Pages/Blog";
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
@@ -15,11 +15,11 @@ export const router = createBrowserRouter([
       // Subrutas dentro de la ruta principal
       {
         index: true, // Indica que este es el índice dentro de las subrutas
-        element: <Home />, // Elemento correspondiente a la subruta de inicio, que es el componente Home
+        element: <Inicio />, // Elemento correspondiente a la subruta de inicio, que es el componente Home
       },
       {
-        path: "/about", // Ruta para la página "About"
-        element: <About />, // Elemento correspondiente a la página "About", que es el componente About
+        path: "/Avisos", // Ruta para la página "Avisos"
+        element: <Avisos />, // Elemento correspondiente a la página "About", que es el componente About
       },
       {
         path: "/blog", // Ruta para la sección de blog
