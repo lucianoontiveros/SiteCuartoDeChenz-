@@ -5,8 +5,8 @@ import iconSite from "../assets/IconSite.png";
 
 const getNavLinkClass = (isActive) => {
   return isActive
-    ? "block nav-link bg-gray-800 py-2 px-3 md:p-0 rounded  text-white  md:bg-transparent active"
-    : "block nav-link py-2 px-3 md:p-0 text-indigo-400 md:text-green-400 rounded md:bg-transparent";
+    ? "block nav-link bg-gray-800  py-2 px-3 md:p-0 rounded  underline text-white  md:bg-transparent underline-green-200 sm:underline-indigo-300 md:underline-mintGreen xl:underline-skyBlue  active"
+    : "block nav-link text-[1em] sm:text-[1.5em] text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue  py-2 px-3 md:p-0 text-indigo-400 md:text-green-400 rounded md:bg-transparent";
 };
 
 const Navbar = () => {
@@ -51,19 +51,23 @@ const Navbar = () => {
           >
             <img
               src={iconSite}
-              className="h-8"
+              className="h-16"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-white text-2xl font-semibold whitespace-nowrap">
-              Dev
-              <span className="text-indigo-400 md:text-green-400">Utility</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+              <span className="text-[25px] text-green-200 sm:hidden">
+                Chenz
+              </span>
+              <span className="uppercase hidden sm:block sm:text-indigo-300 text-[25px] md:text-mintGreen xl:text-skyBlue">
+                Cuarto de Chenz
+              </span>
             </span>
           </NavLink>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
               data-collapse-toggle="navbar-cta"
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-indigo-400 md:text-green-400 rounded-lg md:hidden"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue rounded-lg md:hidden"
               aria-controls="navbar-cta"
               aria-expanded="false"
             >
@@ -89,7 +93,7 @@ const Navbar = () => {
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-cta"
           >
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <NavLink
                   to="/"
