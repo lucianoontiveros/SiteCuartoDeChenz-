@@ -13,26 +13,31 @@ const _Carousel = () => {
         className="object-bottom z-0"
         src={img_1}
         alt="..."
+        style={{ position: "fixed" }}
       />
       <img
-        className="fill-slate-700 object-bottom z-0"
+        className="object-bottom z-0"
         src={img_2}
         alt="..."
+        style={{ position: "fixed" }}
       />
       <img
-        className=" object-bottom z-0"
+        className="object-bottom z-0"
         src={img_3}
         alt="..."
+        style={{ position: "fixed" }}
       />
       <img
-        className=" object-bottom z-0"
+        className="object-bottom z-0"
         src={img_4}
         alt="..."
+        style={{ position: "fixed" }}
       />
       <img
-        className=" object-bottom z-0"
+        className="object-bottom z-0"
         src={img_5}
         alt="..."
+        style={{ position: "fixed" }}
       />
     </Carousel>
   );

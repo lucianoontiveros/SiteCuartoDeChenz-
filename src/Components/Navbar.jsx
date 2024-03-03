@@ -51,11 +51,11 @@ const Navbar = () => {
           >
             <img
               src={iconSite}
-              className="h-16"
-              alt="Flowbite Logo"
+              className="h-12 hidden sm:block"
+              alt="Cuarto de Chenz"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
-              <span className="uppercase hidden sm:block sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue">
+              <span className="uppercase text-mintGreen sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue">
                 4TODECHENZ
               </span>
             </span>

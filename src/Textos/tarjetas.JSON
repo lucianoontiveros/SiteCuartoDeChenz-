@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HORARIO",
+    "descripcion": "Conoce nuestros horarios de transmisión",
+    "tarjeta": "_tarjeta_1.jpeg"
+  },
+  {
+    "title": "NOVEDADES",
+    "descripcion": "Enterarte de las novedades de nuestra comunidad",
+    "tarjeta": "_tarjeta_2.jpeg"
+  },
+  {
+    "title": "COMANDOS",
+    "descripcion": "Estos son los comandos del chat de twitch",
+    "tarjeta": "_tarjeta_3.jpeg"
+  },
+  {
+    "title": "BLOG",
+    "descripcion": "Un espacio para transmitir",
+    "tarjeta": "_tarjeta_4.jpeg"
+  }
+]
