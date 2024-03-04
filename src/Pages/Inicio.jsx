@@ -6,7 +6,7 @@ const Inicio = () => {
   return (
     <>
       <header className="relative">
-        <div className="container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop  mt-2 flex justify-center items-center h-[200px] w-auto sm:h-[300px] sm:min-w-[600px] xl:h-[500px]">
+        <div className="container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop  mt-2 flex justify-center items-center w-[270px] h-[200px] sm:w-auto  sm:h-[300px] sm:min-w-[600px] xl:h-[500px]">
           <_Carousel />
           <img
             src={iconSite}
