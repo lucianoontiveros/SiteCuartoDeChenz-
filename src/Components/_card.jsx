@@ -4,10 +4,20 @@ const Card = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Fetch data from the correct relative path
+    // Obtén los datos desde la ruta relativa correcta
     fetch("/src/Textos/tarjetas.JSON")
-      .then((response) => response.json())
-      .then(setData);
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(
+            `La respuesta de la red no fue válida: ${response.status}`
+          );
+        }
+        return response.json();
+      })
+      .then(setData)
+      .catch((error) => {
+        console.error("Error al obtener los datos:", error);
+      });
   }, []);
 
   return (
