@@ -6,22 +6,22 @@ const Card = () => {
     {
       title: "HORARIO",
       descripcion: "Conoce nuestros horarios de transmisión",
-      tarjeta: "/assets/Tarjetas/_tarjeta_1.jpeg",
+      tarjeta: "../assets/Tarjetas/_tarjeta_1.jpeg",
     },
     {
       title: "NOVEDADES",
       descripcion: "Enterarte de las novedades de nuestra comunidad",
-      tarjeta: "/assets/Tarjetas/_tarjeta_2.jpeg",
+      tarjeta: "../assets/Tarjetas/_tarjeta_2.jpeg",
     },
     {
       title: "COMANDOS",
       descripcion: "Estos son los comandos del chat de twitch",
-      tarjeta: "/assets/Tarjetas/_tarjeta_4.jpeg",
+      tarjeta: "../assets/Tarjetas/_tarjeta_4.jpeg",
     },
     {
       title: "BLOG",
       descripcion: "Un espacio para comunicar y compartir",
-      tarjeta: "/assets/Tarjetas/_tarjeta_5.jpeg",
+      tarjeta: "../assets/Tarjetas/_tarjeta_5.jpeg",
     },
   ];
 
