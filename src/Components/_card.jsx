@@ -6,22 +6,22 @@ const Card = () => {
     {
       title: "HORARIO",
       descripcion: "Conoce nuestros horarios de transmisión",
-      tarjeta: "_tarjeta_1.jpeg",
+      tarjeta: "./src/assets/Tarjetas/_tarjeta_1.jpeg",
     },
     {
       title: "NOVEDADES",
       descripcion: "Enterarte de las novedades de nuestra comunidad",
-      tarjeta: "_tarjeta_2.jpeg",
+      tarjeta: "./src/assets/Tarjetas/_tarjeta_2.jpeg",
     },
     {
       title: "COMANDOS",
       descripcion: "Estos son los comandos del chat de twitch",
-      tarjeta: "_tarjeta_3.jpeg",
+      tarjeta: "./src/assets/Tarjetas/_tarjeta_3.jpeg",
     },
     {
       title: "BLOG",
       descripcion: "Un espacio para comunicar y compartir",
-      tarjeta: "_tarjeta_4.jpeg",
+      tarjeta: "./src/assets/Tarjetas/_tarjeta_4.jpeg",
     },
   ];
 
@@ -30,9 +30,9 @@ const Card = () => {
       {data.map((item, index) => (
         <div
           key={index}
-          className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7] bg-[url(src\assets\Tarjetas\${item.tarjeta})]"
+          className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
-            backgroundImage: `url(./src/assets/Tarjetas/${item.tarjeta})`,
+            backgroundImage: `url(${item.tarjeta})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
