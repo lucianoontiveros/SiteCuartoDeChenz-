@@ -1,0 +1,28 @@
+[33m6dd375a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Se inicia el repositiorio tras un problema con un marge
+[33m43b5267[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Se agregan cards, estilo y efectos. Se da el mismo efecto al carousell, queda pendiente la modifiacion de la propiedad widht del mismo
+[33me0101c8[m Se termina el estilo y diseño del navbar, los componentes que se mostraran o no según la resolución entre este y carousel
+[33m1b40bf1[m Se realizan modificaciones navbar, todavía resta modificar el menú, se agregan titulos al mismo y al inicio. Se modifico tamaño de tipografía
+[33mc2b7c5d[m Se elabora el carousell y el titular de la web
+[33m0d8b45b[m Configuracion de home.jsx
+[33m609f507[m Merge pull request #8 from lucianoontiveros/hotfix/icon-site
+[33m0c68e20[m[33m ([m[1;31morigin/hotfix/icon-site[m[33m)[m Se corregi error de presentacion icon site y redacción en apartado de Estructura del archivo README.md
+[33meb3b8d1[m Update README.md
+[33m601feaf[m Update README.md
+[33me9d31f0[m[33m ([m[1;33mtag: [m[1;33mv1.1.1[m[33m, [m[1;33mtag: [m[1;33mv1.1.0[m[33m)[m Merge pull request #5 from lucianoontiveros/release/v1.1.0
+[33m03ec329[m[33m ([m[1;31morigin/release/v1.1.0[m[33m)[m Se hace el último análisis al sitio web y se aprueba.
+[33m244906e[m Merge pull request #4 from lucianoontiveros/feature/instalacion-tailwind
+[33mfcac321[m[33m ([m[1;31morigin/feature/instalacion-tailwind[m[33m)[m Se añanden etiquetas meta al sitio web
+[33m490fbdf[m Se realiza la documentación en el archivo README.md y se corrigen detalles de presentación
+[33mb07269e[m Se resuelve la dimenciones de varios componentes y se configura la funcionalidad  search de la sección Blog.
+[33m7d35abf[m Se realizan agrega componentes a los página, about, blog, post, y se ajusta las vistas responsive.
+[33mfbcd251[m Terminé de armar la sección home del template y modificar el layout con la configuración del navbar y el footer
+[33mb8015c2[m Se hacen las instalaciones de tailwind, flowbite y modificaciones en pages Home
+[33md65768e[m Merge pull request #3 from lucianoontiveros/main
+[33m3863316[m Merge branch 'develop' into main
+[33m721da63[m Se actualiza la ultima version v1.0.0
+[33md507366[m[33m ([m[1;33mtag: [m[1;33mv1.0.0[m[33m)[m Merge pull request #2 from lucianoontiveros/release/v1.0.0
+[33med607ba[m[33m ([m[1;31morigin/release/v1.0.0[m[33m)[m Se modifica la presentacion
+[33m4118ff7[m Merge pull request #1 from lucianoontiveros/hotfix/routes-presentation
+[33m85f7397[m[33m ([m[1;31morigin/hotfix/routes-presentation[m[33m)[m Se actualiza archivo readme. Se termina la estructura de la plantilla con sus rutas para su posterior uso en distintos proyectos.
+[33mdd16281[m Instalación React Router 6.4 y estructura de la página web
+[33m211fd7d[m Instalación React Router 6.4 y estructura de la página web
