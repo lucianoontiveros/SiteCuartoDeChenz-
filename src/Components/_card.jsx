@@ -5,7 +5,7 @@ const Card = () => {
 
   useEffect(() => {
     // Obtén los datos desde la ruta relativa correcta
-    fetch("./src/Textos/tarjetas.JSON")
+    fetch("src/Textos/tarjetas.JSON")
       .then((response) => {
         if (!response.ok) {
           throw new Error(
