@@ -4,20 +4,9 @@ const Card = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Obtén los datos desde la ruta relativa correcta
     fetch("src/Textos/tarjetas.JSON")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(
-            `La respuesta de la red no fue válida: ${response.status}`
-          );
-        }
-        return response.json();
-      })
-      .then(setData)
-      .catch((error) => {
-        console.error("Error al obtener los datos:", error);
-      });
+      .then((response) => response.json())
+      .then(setData);
   }, []);
 
   return (
@@ -25,14 +14,14 @@ const Card = () => {
       {data.map((item, index) => (
         <div
           key={index}
-          className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+          className="card my-2 mx-2  w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7] bg-[url(src\assets\Tarjetas\${item.tarjeta})]"
           style={{
-            // backgroundImage: `url("src/assets/Tarjetas/${item.tarjeta}")`,
+            backgroundImage: `url('src/assets/Tarjetas/${item.tarjeta}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
-          <div className="bg-black bg-opacity-50 flex flex-col p-5 w-full h-[269px] rounded-xl justify-center items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
+          <div className="bg-black bg-opacity-50 flex flex-col p-5  w-full h-[269px] rounded-xl justify-center items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
             <h3 className="font-bold text-xl">{item.title}</h3>
             <p>{item.descripcion}</p>
           </div>
