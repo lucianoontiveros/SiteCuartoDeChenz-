@@ -5,7 +5,7 @@ const Card = () => {
 
   useEffect(() => {
     // Obtén los datos desde la ruta relativa correcta
-    fetch("/src/Textos/tarjetas.JSON")
+    fetch("./src/Textos/tarjetas.JSON")
       .then((response) => {
         if (!response.ok) {
           throw new Error(
@@ -27,7 +27,7 @@ const Card = () => {
           key={index}
           className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
-            backgroundImage: `url("./src/assets/Tarjetas/${item.tarjeta}")`,
+            backgroundImage: `url("src/assets/Tarjetas/${item.tarjeta}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
