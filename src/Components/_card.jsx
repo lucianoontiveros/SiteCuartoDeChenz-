@@ -6,24 +6,26 @@ const Card = () => {
     {
       title: "HORARIO",
       descripcion: "Conoce nuestros horarios de transmisión",
-      tarjeta: "/assets/Tarjetas/_tarjeta_1.jpeg",
+      tarjeta: "src/assets/Tarjetas/tarjeta_1.png",
     },
     {
       title: "NOVEDADES",
       descripcion: "Enterarte de las novedades de nuestra comunidad",
-      tarjeta: "/assets/Tarjetas/_tarjeta_2.jpeg",
+      tarjeta: "src/assets/Tarjetas/tarjeta_2.png",
     },
     {
       title: "COMANDOS",
       descripcion: "Estos son los comandos del chat de twitch",
-      tarjeta: "/assets/Tarjetas/_tarjeta_3.jpeg",
+      tarjeta: "src/assets/Tarjetas/tarjeta_3.png",
     },
     {
       title: "BLOG",
       descripcion: "Un espacio para comunicar y compartir",
-      tarjeta: "/assets/Tarjetas/_tarjeta_4.jpeg",
+      tarjeta: "src/assets/Tarjetas/tarjeta_4.png",
     },
   ];
+
+  console.log(data);
 
   return (
     <div className="flex flex-col justify-center items-center sm:flex-row sm:flex-wrap my-2 mx-5">
