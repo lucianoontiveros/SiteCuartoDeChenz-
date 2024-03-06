@@ -1,4 +1,8 @@
 import React from "react";
+import tarjeta1 from "../assets/Tarjetas/tarjeta_1.png";
+import tarjeta2 from "../assets/Tarjetas/tarjeta_2.png";
+import tarjeta3 from "../assets/Tarjetas/tarjeta_3.png";
+import tarjeta4 from "../assets/Tarjetas/tarjeta_4.png";
 
 const Card = () => {
   // Integrar directamente los datos JSON en el componente
@@ -6,28 +10,28 @@ const Card = () => {
     {
       title: "HORARIO",
       descripcion: "Conoce nuestros horarios de transmisión",
-      tarjeta: "src/assets/Tarjetas/tarjeta_1.png",
+      tarjeta: tarjeta1,
     },
     {
       title: "NOVEDADES",
       descripcion: "Enterarte de las novedades de nuestra comunidad",
-      tarjeta: "src/assets/Tarjetas/tarjeta_2.png",
+      tarjeta: tarjeta2,
     },
     {
       title: "COMANDOS",
       descripcion: "Estos son los comandos del chat de twitch",
-      tarjeta: "src/assets/Tarjetas/tarjeta_3.png",
+      tarjeta: tarjeta3,
     },
     {
       title: "BLOG",
       descripcion: "Un espacio para comunicar y compartir",
-      tarjeta: "src/assets/Tarjetas/tarjeta_4.png",
+      tarjeta: tarjeta4,
     },
   ];
 
   console.log(data);
 
-  data.map((item) => console.log(`"${item.tarjeta}"`));
+  data.map((item) => console.log(`${item.tarjeta}`));
 
   return (
     <div className="flex flex-col justify-center items-center sm:flex-row sm:flex-wrap my-2 mx-5">
