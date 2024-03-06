@@ -4,7 +4,7 @@ import tarjeta2 from "../assets/Tarjetas/tarjeta_2.png";
 import tarjeta3 from "../assets/Tarjetas/tarjeta_3.png";
 import tarjeta4 from "../assets/Tarjetas/tarjeta_4.png";
 
-const Card = () => {
+const _card = () => {
   // Integrar directamente los datos JSON en el componente
   const data = [
     {
@@ -31,14 +31,14 @@ const Card = () => {
 
   console.log(data);
 
-  data.map((item) => console.log(`${item.tarjeta}`));
+  data.map((item) => console.log(`"${item.tarjeta}"`));
 
   return (
-    <div className="flex flex-col justify-center items-center sm:flex-row sm:flex-wrap my-2 mx-5">
+    <div className="flex flex-col flex-wrap items-center justify-between sm:flex-row sm:justify-center sm:flex-wrap my-2">
       {data.map((item, index) => (
         <div
           key={index}
-          className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+          className="card flex flex-col justify-center  my-2 mx-2 w-[250px] h-[200px]  animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
             backgroundImage: `url(${item.tarjeta})`,
             backgroundSize: "cover",
@@ -55,4 +55,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default _card;
