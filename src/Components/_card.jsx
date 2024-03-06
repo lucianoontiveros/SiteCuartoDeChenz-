@@ -36,7 +36,7 @@ const Card = () => {
           key={index}
           className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
-            backgroundImage: `url("${item.tarjeta}")`,
+            backgroundImage: `url('${item.tarjeta}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
