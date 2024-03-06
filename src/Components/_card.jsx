@@ -6,26 +6,28 @@ const Card = () => {
     {
       title: "HORARIO",
       descripcion: "Conoce nuestros horarios de transmisión",
-      tarjeta: "../assets/Tarjetas/tarjeta_1.png",
+      tarjeta: "src/assets/Tarjetas/tarjeta_1.png",
     },
     {
       title: "NOVEDADES",
       descripcion: "Enterarte de las novedades de nuestra comunidad",
-      tarjeta: "../assets/Tarjetas/tarjeta_2.png",
+      tarjeta: "src/assets/Tarjetas/tarjeta_2.png",
     },
     {
       title: "COMANDOS",
       descripcion: "Estos son los comandos del chat de twitch",
-      tarjeta: "../assets/Tarjetas/tarjeta_3.png",
+      tarjeta: "src/assets/Tarjetas/tarjeta_3.png",
     },
     {
       title: "BLOG",
       descripcion: "Un espacio para comunicar y compartir",
-      tarjeta: "../assets/Tarjetas/tarjeta_4.png",
+      tarjeta: "src/assets/Tarjetas/tarjeta_4.png",
     },
   ];
 
   console.log(data);
+
+  data.map((item) => console.log(`"${item.tarjeta}"`));
 
   return (
     <div className="flex flex-col justify-center items-center sm:flex-row sm:flex-wrap my-2 mx-5">
@@ -34,7 +36,7 @@ const Card = () => {
           key={index}
           className="card my-2 mx-2 w-[270px] h-[130px] sm:h-[270px] animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex flex-col justify-center items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
-            backgroundImage: `url(${item.tarjeta})`,
+            backgroundImage: `url("${item.tarjeta}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
