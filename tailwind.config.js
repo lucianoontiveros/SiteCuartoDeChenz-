@@ -6,6 +6,7 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
+    base: "inline animate-spin text-gray-200",
     extend: {
       colors: {
         // Nombres personalizados para tus colores
@@ -55,6 +56,10 @@ export default {
         "50%": { opacity: 0.5 },
         "100%": { opacity: 1 },
       },
+      spin: {
+        "0%": { transform: "rotate(0deg)" },
+        "100%": { transform: "rotate(360deg)" },
+      },
     },
     animation: {
       "dance-movil": "border-dance-movil 5s linear infinite",
@@ -62,6 +67,7 @@ export default {
       "dance-latop": "border-dance-latop 5s linear infinite",
       "dance-desktop": "border-dance-desktop 5s linear infinite",
       "pulse-icon": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "spin-roll": "spin 1s linear infinite",
     },
   },
   plugins: [

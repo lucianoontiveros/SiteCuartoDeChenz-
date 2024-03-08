@@ -1,10 +1,8 @@
-import React from 'react';
-import Load from '../Pages/Load';
+import React from "react";
+import Load from "../Pages/Load";
 
 const Loading = () => {
-  return (
-      <Load />
-  );
+  return <Load />;
 };
 
 export default Loading;

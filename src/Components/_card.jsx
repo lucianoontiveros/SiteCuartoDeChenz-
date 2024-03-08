@@ -23,7 +23,7 @@ const _card = () => {
       tarjeta: tarjeta3,
     },
     {
-      title: "BLOG",
+      title: "TUTORIALES",
       descripcion: "Un espacio para comunicar y compartir. Una invitación.",
       tarjeta: tarjeta4,
     },
