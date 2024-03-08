@@ -102,6 +102,14 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  to="/Comunidad"
+                  className={({ isActive }) => getNavLinkClass(isActive)}
+                >
+                  Comunidad
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/Avisos"
                   className={({ isActive }) => getNavLinkClass(isActive)}
                 >

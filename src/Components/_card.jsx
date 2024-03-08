@@ -24,7 +24,7 @@ const _card = () => {
     },
     {
       title: "BLOG",
-      descripcion: "Un espacio para comunicar y compartir",
+      descripcion: "Un espacio para comunicar y compartir. Una invitación.",
       tarjeta: tarjeta4,
     },
   ];
@@ -38,7 +38,7 @@ const _card = () => {
       {data.map((item, index) => (
         <div
           key={index}
-          className="card flex flex-col justify-center  my-2 mx-2 w-[250px] h-[200px]  animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+          className="card flex flex-col justify-center  my-2 mx-2 w-[250px] h-[200px] sm:w-[280px] md:w-[340px] xl:w-[260px]  animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
           style={{
             backgroundImage: `url(${item.tarjeta})`,
             backgroundSize: "cover",

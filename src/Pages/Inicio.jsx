@@ -1,12 +1,12 @@
 import _Carousel from "../Components/_Carousel";
 import iconSite from "../assets/IconSite.png";
 import _card from "../Components/_card";
-import _card_presentation from "../Components/_card_presentation";
+import _bar_media from "../Components/_bar_media";
 
 const Inicio = () => {
   return (
     <>
-      <header className="relative mt-2 mx-3 h-[95vh]">
+      <header className="mt-2 mx-3">
         <div className="container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center w-[250px] h-[200px] sm:w-auto sm:h-[350px] md:h-[400x] max-w-[1100px]">
           <_Carousel className="mx-3 " />
           <img
@@ -23,16 +23,15 @@ const Inicio = () => {
             </h1> */}
           </div>
         </div>
-        <_card />
+        <main>
+          <nav className="mt-3">
+            <_bar_media />
+          </nav>
+          <article className="container mb-2">
+            <_card />
+          </article>
+        </main>
       </header>
-      <main>
-        <article>
-          <section></section>
-        </article>
-        <article className="flex flex-col justify-center items-center">
-          <_card_presentation />
-        </article>
-      </main>
     </>
   );
 };

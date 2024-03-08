@@ -5,6 +5,7 @@ import Blog, { loaderBlog } from "../Pages/Blog";
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
 import Post, { loaderPost } from "../Components/Post";
+import Comunidad from "../Pages/Comunidad";
 // Crea una constante router usando el método createBrowserRouter
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
       {
         index: true, // Indica que este es el índice dentro de las subrutas
         element: <Inicio />, // Elemento correspondiente a la subruta de inicio, que es el componente Home
+      },
+      {
+        path: "/Comunidad", // Ruta para la página "Avisos"
+        element: <Comunidad />, // Elemento correspondiente a la página "About", que es el componente About
       },
       {
         path: "/Avisos", // Ruta para la página "Avisos"
