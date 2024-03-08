@@ -13,6 +13,7 @@ const Inicio = () => {
             src={iconSite}
             className="absolute h-16 sm:hidden"
             alt="Cuarto de Chenz"
+            loading="lazy"
           />
           <div className="absolute">
             <h1 className="hidden sm:block text-indigo-300 md:text-mintGreen xl:text-skyBlue text-2xl sm:text-6xl md:text-7xl xl:text-8xl font-mono uppercase  hover:animate-pulse-icon">

@@ -16,6 +16,7 @@ const _bar_media = () => {
         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconX}
           alt="x"
@@ -26,6 +27,7 @@ const _bar_media = () => {
         className="rounded-full bg-blue text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconInsta}
           alt="Instagram"
@@ -36,6 +38,7 @@ const _bar_media = () => {
         className="rounded-full bg-blue text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconTwitch}
           alt="Twitch"
@@ -46,6 +49,7 @@ const _bar_media = () => {
         className="rounded-full bg-blue text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconGitHub}
           alt="GitHub"
@@ -56,6 +60,7 @@ const _bar_media = () => {
         className="rounded-full bg-blue text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconThreads}
           alt="Threads"
@@ -66,6 +71,7 @@ const _bar_media = () => {
         className="rounded-full bg-blue text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
       >
         <img
+          loading="lazy"
           className="hover:animate-pulse-icon w-[20px] max-w-[30px]"
           src={iconDiscord}
           alt="Discord"
