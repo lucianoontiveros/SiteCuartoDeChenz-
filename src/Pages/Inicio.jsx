@@ -15,7 +15,7 @@ const Inicio = () => {
             alt="Cuarto de Chenz"
           />
           <div className="absolute">
-            <h1 className="hidden sm:block text-indigo-300 md:text-mintGreen xl:text-skyBlue text-2xl sm:text-6xl md:text-7xl xl:text-8xl font-mono uppercase">
+            <h1 className="hidden sm:block text-indigo-300 md:text-mintGreen xl:text-skyBlue text-2xl sm:text-6xl md:text-7xl xl:text-8xl font-mono uppercase  hover:animate-pulse-icon">
               CUARTO DE CHENZ
             </h1>
             {/* <h1 className="text-skyBlue mt-20 sm:hidden text-2xl sm:text-6xl md:text-7xl xl:text-9xl font-mono uppercase">

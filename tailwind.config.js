@@ -50,12 +50,18 @@ export default {
         "75%": { borderColor: "#77F3F9" },
         "100%": { borderColor: "#77DFF9" },
       },
+      pulse: {
+        "0%": { opacity: 1 },
+        "50%": { opacity: 0.5 },
+        "100%": { opacity: 1 },
+      },
     },
     animation: {
       "dance-movil": "border-dance-movil 5s linear infinite",
       "dance-tablet": "border-dance-tablet 5s linear infinite",
       "dance-latop": "border-dance-latop 5s linear infinite",
       "dance-desktop": "border-dance-desktop 5s linear infinite",
+      "pulse-icon": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
     },
   },
   plugins: [

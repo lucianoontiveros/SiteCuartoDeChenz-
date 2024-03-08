@@ -6,7 +6,7 @@ import React from "react";
 
 const _buttom_travel = () => {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-col gap-2">
       <Button gradientMonochrome="cyan">
         <a
           href="http://"
