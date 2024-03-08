@@ -29,10 +29,6 @@ const _card = () => {
     },
   ];
 
-  console.log(data);
-
-  data.map((item) => console.log(`"${item.tarjeta}"`));
-
   return (
     <div className="flex flex-col flex-wrap items-center justify-between sm:flex-row sm:justify-center sm:flex-wrap my-2">
       {data.map((item, index) => (
