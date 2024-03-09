@@ -4,7 +4,7 @@ import iconSite from "../assets/IconSite.png";
 const Load = () => {
   return (
     <div className="bg-gray">
-      <div className="flex flex-col justify-center items-center h-[60vh] text-center text-green-200 sm:text-indigo-300 md:text-mintGreen">
+      <div className="flex flex-col justify-center items-center h-[90vh] text-center text-green-200 sm:text-indigo-300 md:text-mintGreen">
         <div role="status">
           <div>
             <img

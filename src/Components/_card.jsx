@@ -41,9 +41,16 @@ const _card = () => {
             backgroundPosition: "center",
           }}
         >
-          <div className="bg-black bg-opacity-50 flex flex-col p-5 w-full h-[269px] rounded-xl justify-center items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
-            <h3 className="font-bold text-xl">{item.title}</h3>
-            <p>{item.descripcion}</p>
+          <div
+            key={index}
+            className="bg-black bg-opacity-50 flex flex-col p-5 w-full h-[269px] rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
+          >
+            <div className="my-2">
+              <h3 className="font-bold text-xl text-center">{item.title}</h3>
+            </div>
+            <div>
+              <p>{item.descripcion}</p>
+            </div>
           </div>
         </div>
       ))}

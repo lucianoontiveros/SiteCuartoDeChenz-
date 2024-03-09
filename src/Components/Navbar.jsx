@@ -110,6 +110,14 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  to="/Horarios"
+                  className={({ isActive }) => getNavLinkClass(isActive)}
+                >
+                  Horarios
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/Avisos"
                   className={({ isActive }) => getNavLinkClass(isActive)}
                 >
@@ -124,22 +132,15 @@ const Navbar = () => {
                   Comandos
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/Recomendados"
-                  className={({ isActive }) => getNavLinkClass(isActive)}
-                >
-                  Recomendados
-                </NavLink>
-              </li>
-              <li>
+
+              {/* <li>
                 <NavLink
                   to="/blog"
                   className={({ isActive }) => getNavLinkClass(isActive)}
                 >
                   Blog
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
