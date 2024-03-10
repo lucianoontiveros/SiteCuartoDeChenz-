@@ -20,7 +20,9 @@ export const _card_presentation = () => {
         <h5 className="text-2xl font-bold text-gray-900">
           ¿Ya eres parte de la familia?
         </h5>
-        <p className="font-normal text-gray-700 ">Está es tu comunidad.</p>
+        <p className="font-normal text-gray-700 ">
+          Nuestra comunidad te da la bienvenida.
+        </p>
         <_buttom_travel />
       </Card>
       <Card

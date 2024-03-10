@@ -132,6 +132,14 @@ const Navbar = () => {
                   Comandos
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/Tutoriales"
+                  className={({ isActive }) => getNavLinkClass(isActive)}
+                >
+                  Tutoriales
+                </NavLink>
+              </li>
 
               {/* <li>
                 <NavLink

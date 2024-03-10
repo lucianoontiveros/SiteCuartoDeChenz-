@@ -9,7 +9,7 @@ const _buttom_travel = () => {
     <div className="flex flex-col gap-2">
       <Button gradientMonochrome="cyan">
         <a
-          href="http://"
+          href="https://discord.gg/UdU3wvpWu7 "
           target="_blank"
           rel="noopener noreferrer"
           alt="discord"
@@ -19,10 +19,10 @@ const _buttom_travel = () => {
       </Button>
       <Button gradientMonochrome="purple">
         <a
-          href="http://"
+          href="https://www.twitch.tv/cuartodechenz"
           target="_blank"
           rel="noopener noreferrer"
-          alt="discord"
+          alt="Twitch"
         >
           Twitch
         </a>
