@@ -8,6 +8,7 @@ import Post, { loaderPost } from "../Components/Post";
 import Comunidad from "../Pages/Comunidad";
 import Horarios from "../Pages/Horarios";
 import Tutoriales from "../Pages/Tutoriales";
+import Comandos from "../Pages/Comandos";
 // Crea una constante router usando el método createBrowserRouter
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ export const router = createBrowserRouter([
       {
         path: "/Tutoriales",
         element: <Tutoriales />,
+      },
+      {
+        path: "/Comandos",
+        element: <Comandos />,
+        loader: loaderBlog,
       },
       {
         path: "/blog",
