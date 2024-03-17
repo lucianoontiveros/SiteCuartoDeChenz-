@@ -94,7 +94,7 @@ import tuki1 from "../assets/gallery/boton1.png";
 import tuki2 from "../assets/gallery/boton2.png";
 import verde from "../assets/gallery/verde.png";
 import valeya from "../assets/gallery/vale.png";
-import varImage from "../assets/gallery/var.png";
+import verElVar from "../assets/gallery/var.png";
 import usted from "../assets/gallery/señalar.png";
 import unite from "../assets/gallery/plantar.png";
 import unite2 from "../assets/gallery/plantar.png";
@@ -507,8 +507,8 @@ const Comandos = () => {
         image={valeya}
       />
       <_card_gallery
-        name={"varImage"}
-        image={varImage}
+        name={"var"}
+        image={verElVar}
       />
       <_card_gallery
         name={"usted"}
