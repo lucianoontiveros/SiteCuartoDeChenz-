@@ -210,7 +210,7 @@ const Tutoriales = () => {
               allowfullscreen
             ></iframe>
             <h5 className="tmb-2 text-2xl font-bold tracking-tight">
-              VIDIO TUTORIAL BRUNITOPET
+              TUTORIAL BRUNITOPET
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Descubre como utilizar nuestro Bot de tareas.
@@ -226,7 +226,7 @@ const Tutoriales = () => {
               allowfullscreen
             ></iframe>
             <h5 className="tmb-2 text-2xl font-bold tracking-tight">
-              Tutorial de Discord.
+              TUTORIAL DISCORD
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
               No te quedes afuera de discord. Aquí te damos los pasos a seguir
