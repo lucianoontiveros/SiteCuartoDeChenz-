@@ -10,30 +10,35 @@ const _Carousel = () => {
   return (
     <Carousel>
       <img
+        loading="lazy"
         className="object-bottom z-0"
         src={img_1}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
+        loading="lazy"
         className="object-bottom z-0"
         src={img_2}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
+        loading="lazy"
         className="object-bottom z-0"
         src={img_3}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
+        loading="lazy"
         className="object-bottom z-0"
         src={img_4}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
+        loading="lazy"
         className="object-bottom z-0"
         src={img_5}
         alt="..."

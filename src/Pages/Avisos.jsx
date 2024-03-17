@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "flowbite-react";
-import portada from "../assets/portada_presentacion.png";
+
 import _buttom_travel from "../Components/_buttom_travel";
 import Totoro_article from "../assets/Totoro_article.jpg";
 import _bar_media from "../Components/_bar_media";
@@ -8,7 +8,20 @@ import _bar_media from "../Components/_bar_media";
 const About = () => {
   return (
     <header className="container">
-      <article className="flex flex-col md:flex-row">
+      <article className="flex flex-col md:flex-row ">
+        <section
+          className="mx-1 flex justify-center "
+          id="tarjetas"
+        >
+          <Card className="max-w-[270px] sx:max-w-sm order-1 bg-dark  text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
+            <img
+              className="rounded-lg m-0 p-0"
+              src={Totoro_article}
+              alt="Imagen Articulo"
+            />
+            <_bar_media />
+          </Card>
+        </section>
         <section
           id="articulo"
           className="my-5 mx-5 text-xs xl:text-base  text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
@@ -65,42 +78,6 @@ const About = () => {
             días. Un abrazo muy grande.
           </p>
           <h3 className="text-2xl mt-3">Chenz</h3>
-        </section>
-        <section id="tarjetas">
-          <section className="p-0">
-            {/* imagen */}
-            <Card className="mx-2 my-3 order-1 bg-dark text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
-              <img
-                className="rounded-lg m-0 p-0"
-                width={700}
-                height={700}
-                src={Totoro_article}
-                alt="Imagen Articulo"
-              />
-              <_bar_media />
-            </Card>
-          </section>
-          <section>
-            <Card
-              className=" mx-2 my-3 order-2 bg-dark sx:w-[250px] sm:w-[500px] md:w-[300px] xl:w-[500px] text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop"
-              renderImage={() => (
-                <img
-                  width={500}
-                  height={500}
-                  src={portada}
-                  alt="Portada presentación"
-                />
-              )}
-            >
-              <h5 className="text-2xl font-bold text-gray-900">
-                ¿Ya eres parte de la familia?
-              </h5>
-              <p className="font-normal text-gray-700 ">
-                Nuestra comunidad te da la bienvenida.
-              </p>
-              <_buttom_travel />
-            </Card>
-          </section>
         </section>
       </article>
     </header>

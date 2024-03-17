@@ -14,6 +14,7 @@ export const _card_presentation = () => {
             height={500}
             src={portada}
             alt="Portada presentación"
+            loading="lazy"
           />
         )}
       >
