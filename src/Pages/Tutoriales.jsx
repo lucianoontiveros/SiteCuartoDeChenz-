@@ -114,7 +114,7 @@ const Tutoriales = () => {
               imgSrc={totoro_tutorial_datos}
               horizontal
             >
-              <h5 className="tmb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="tmb-2 text-2xl font-bold tracking-tight ">
                 Hazte conocer en nuestra comunidad
               </h5>
               <p className="bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">
@@ -209,7 +209,7 @@ const Tutoriales = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <h5 className="text-2xl  mb-2  tracking-tight text-gray-900 dark:text-white">
+            <h5 className="tmb-2 text-2xl font-bold tracking-tight">
               VIDIO TUTORIAL BRUNITOPET
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -225,7 +225,7 @@ const Tutoriales = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <h5 className="text-2xl mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="tmb-2 text-2xl font-bold tracking-tight">
               Tutorial de Discord.
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
