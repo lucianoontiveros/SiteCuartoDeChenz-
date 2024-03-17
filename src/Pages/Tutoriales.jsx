@@ -210,11 +210,10 @@ const Tutoriales = () => {
               allowfullscreen
             ></iframe>
             <h5 className="text-2xl  mb-2  tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              VIDIO TUTORIAL BRUNITOPET
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              Descubre como utilizar nuestro Bot de tareas.
             </p>
           </Card>
           <Card className="mx-3 mb-2 text-xs xl:text-base bg-dark text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
@@ -227,11 +226,11 @@ const Tutoriales = () => {
               allowfullscreen
             ></iframe>
             <h5 className="text-2xl mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              Tutorial de Discord.
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+              No te quedes afuera de discord. Aquí te damos los pasos a seguir
+              para que puedas unirte a nuestra comunidad.
             </p>
           </Card>
         </div>
