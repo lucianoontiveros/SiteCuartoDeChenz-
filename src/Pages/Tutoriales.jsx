@@ -22,7 +22,7 @@ const Tutoriales = () => {
               <p className="bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">
                 En este canal tenemos un bot que recuerda tus tareas. La forma
                 de interactuar con él es muy fácil. Su nombre es BrunitoPet y
-                aquí te dejamos los comandos, más unos videos tutoriales más
+                aquí te dejamos los comandos, y unos videos tutoriales más
                 abajo. No olvides que debes ingresarlos en el chat de Twitch del
                 canal.
               </p>
