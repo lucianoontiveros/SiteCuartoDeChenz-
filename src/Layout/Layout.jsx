@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useNavigation } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import _Navbar from "../Components/_Navbar";
 import Footer from "../Components/Footer";
 import Loading from "../Components/Loading";
 
@@ -10,7 +10,7 @@ const Layout = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen p-0 min-h-{100vh} bg-[#0d030e]">
-        <Navbar />
+        <_Navbar />
         <div>
           {/* Renderiza el componente Loading solo si la navegación está en estado 'loading' */}
           {navigation.state === "loading" && <Loading />}

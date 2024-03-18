@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouteError, Link } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import _Navbar from "../Components/_Navbar";
 import Footer from "../Components/Footer";
 import iconSite from "../assets/IconSite.png";
 import _bar_media from "../Components/_bar_media";
@@ -10,7 +10,7 @@ const NotFound = () => {
   console.log(error);
   return (
     <div className="bg-gray">
-      <Navbar />
+      <_Navbar />
       <div className="container flex flex-col justify-center items-center h-[87vh]">
         <div role="status">
           <div className="flex justify-center">
