@@ -37,7 +37,7 @@ const _Navbar = () => {
       <div>
         <Navbar.Toggle className=" bg-mintGreen sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue" />
       </div>
-      <Navbar.Collapse className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <Navbar.Collapse>
         <Navbar.Link
           to="/"
           aria-current="page"
