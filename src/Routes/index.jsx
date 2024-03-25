@@ -1,10 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Avisos from "../Pages/Avisos";
 import Inicio from "../Pages/Inicio";
-import Blog, { loaderBlog } from "../Pages/Blog";
 import NotFound from "../Pages/NotFound";
 import Layout from "../Layout/Layout";
-import Post, { loaderPost } from "../Components/Post";
 import Comunidad from "../Pages/Comunidad";
 import Horarios from "../Pages/Horarios";
 import Tutoriales from "../Pages/Tutoriales";
@@ -39,17 +37,6 @@ export const router = createBrowserRouter([
       {
         path: "/Comandos",
         element: <Comandos />,
-        loader: loaderBlog,
-      },
-      {
-        path: "/blog",
-        element: <Blog />,
-        loader: loaderBlog,
-      },
-      {
-        path: "/blog/:id",
-        element: <Post />,
-        loader: loaderPost,
       },
     ],
   },

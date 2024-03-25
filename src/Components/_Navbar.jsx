@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import iconSite from "../assets/IconSite.png";
-
 import { Navbar } from "flowbite-react";
 
 const getNavLinkClass = (isActive) => {
@@ -38,10 +37,7 @@ const _Navbar = () => {
         <Navbar.Toggle className=" bg-mintGreen sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue" />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link
-          to="/"
-          aria-current="page"
-        >
+        <Navbar.Link>
           <NavLink
             to="/"
             className={({ isActive }) => getNavLinkClass(isActive)}
