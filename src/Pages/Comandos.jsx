@@ -130,6 +130,17 @@ import laspibas from "../assets/gallery/laspibas.png";
 import bobo from "../assets/gallery/bobo.png";
 import dios from "../assets/gallery/dios.png";
 import hechizo from "../assets/gallery/hechizo.png";
+import elamor from "../assets/gallery/elamor.png";
+import grita from "../assets/gallery/grita.png";
+import necesito from "../assets/gallery/necesito.png";
+import siuuu from "../assets/gallery/siuuu.png";
+import ayuno from "../assets/gallery/ayuno.png";
+import reza from "../assets/gallery/reza.png";
+import siyase from "../assets/gallery/siyase.png";
+import talleres from "../assets/gallery/talleres.png";
+import levantarte from "../assets/gallery/levantarte.png";
+import levantarse from "../assets/gallery/levantarse.png";
+import fotosintesis from "../assets/gallery/fotosintesis.png";
 
 const Comandos = () => {
   return (
@@ -657,6 +668,50 @@ const Comandos = () => {
       <_card_gallery
         name={"para"}
         image={para}
+      />
+      <_card_gallery
+        name={"elamor"}
+        image={elamor}
+      />
+      <_card_gallery
+        name={"grita"}
+        image={grita}
+      />
+      <_card_gallery
+        name={"necesito"}
+        image={necesito}
+      />
+      <_card_gallery
+        name={"siuuu"}
+        image={siuuu}
+      />
+      <_card_gallery
+        name={"ayuno"}
+        image={ayuno}
+      />
+      <_card_gallery
+        name={"reza"}
+        image={reza}
+      />
+      <_card_gallery
+        name={"fotosintesis"}
+        image={fotosintesis}
+      />
+      <_card_gallery
+        name={"levantarse"}
+        image={levantarse}
+      />
+      <_card_gallery
+        name={"levantarte"}
+        image={levantarte}
+      />
+      <_card_gallery
+        name={"talleres"}
+        image={talleres}
+      />
+      <_card_gallery
+        name={"siyase"}
+        image={siyase}
       />
     </div>
   );
