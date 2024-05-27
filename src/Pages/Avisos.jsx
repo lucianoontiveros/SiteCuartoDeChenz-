@@ -68,7 +68,7 @@ const About = () => {
             podremos hacer el martes previo a este encuentro. Así que si tenés
             ganas de saber o conocer desde cuando hace que estamos en el mundo
             de Twitch, las distintas personalidades que pasaron por acá y me
-            ayudaron a conformar el espacio, agenda el día jueves 23/05 a las
+            ayudaron a conformar el espacio, agenda el día jueves 30/05 a las
             18:00 hs. Si no puedes estar no te preocupes lo subiré a YouTube el
             fin de semana. Espero que sea un buen momento para todos.
           </p>
