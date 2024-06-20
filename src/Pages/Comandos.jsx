@@ -141,6 +141,8 @@ import talleres from "../assets/gallery/talleres.png";
 import levantarte from "../assets/gallery/levantarte.png";
 import levantarse from "../assets/gallery/levantarse.png";
 import fotosintesis from "../assets/gallery/fotosintesis.png";
+import tutu from "../assets/gallery/tutu.png";
+import tequedo from "../assets/gallery/tequedo.png";
 
 const Comandos = () => {
   return (
@@ -712,6 +714,14 @@ const Comandos = () => {
       <_card_gallery
         name={"siyase"}
         image={siyase}
+      />
+      <_card_gallery
+        name={"tute"}
+        image={tute}
+      />
+      <_card_gallery
+        name={"tequedo"}
+        image={tequedo}
       />
     </div>
   );
