@@ -8,38 +8,38 @@ import { Carousel } from "flowbite-react";
 
 const _Carousel = () => {
   return (
-    <Carousel>
+    <Carousel className="red" >
       <img
         loading="lazy"
-        className="object-bottom z-0"
+        className="object-bottom z-0 img_corousel"
         src={img_1}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0"
+        className="object-bottom z-0 img_corousel"
         src={img_2}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0"
+        className="object-bottom z-0 img_corousel"
         src={img_3}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0"
+        className="object-bottom z-0 img_corousel"
         src={img_4}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0"
+        className="object-bottom z-0 img_corousel"
         src={img_5}
         alt="..."
         style={{ position: "fixed" }}
