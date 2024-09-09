@@ -7,8 +7,8 @@ const Inicio = () => {
   return (
     <>
       <header className="mt-2 mx-3">
-        <div className="container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center w-[250px] h-[200px] sm:w-auto sm:h-[350px] md:h-[400x] max-w-[1100px]">
-          <_Carousel className="mx-3 " />
+        <div className="contenedor container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center min-w-[200px] h-[310px]">
+          <_Carousel />
           <img
             src={iconSite}
             className="absolute h-16 sm:hidden"
@@ -25,7 +25,7 @@ const Inicio = () => {
           </div>
         </div>
         <main>
-          <nav className="mt-3">
+          <nav>
             <_bar_media />
           </nav>
           <article className="container mb-2">
