@@ -19,6 +19,11 @@
   font-style: normal;
 }
 
+.logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 3px white;
+}
+
 .card {
   border: 2px solid;
   box-shadow: 0 0 0 10px;
@@ -32,12 +37,9 @@
   grid-auto-flow: dense;
   justify-items: center;
   background-color: rgb(0, 0, 0);
+  min-height: 90vh;
 }
 
 .red {
   height: 300px;
-}
-.img_corousel {
-  min-width: 800px;
-  min-height: 320px;
 }
