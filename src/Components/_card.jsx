@@ -43,7 +43,7 @@ const _card = () => {
         >
           <div
             key={index}
-            className="card flex flex-col justify-center  my-2 mx-2 w-[250px] h-[200px] sm:w-[280px] md:w-[340px] xl:w-[260px]  animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+            className="card flex flex-col justify-center w-[290px] max-w-[400px]  my-2 mx-2 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
             style={{
               backgroundImage: `url(${item.tarjeta})`,
               backgroundSize: "cover",
@@ -52,7 +52,7 @@ const _card = () => {
           >
             <div
               key={index}
-              className="bg-black bg-opacity-50 flex flex-col p-5 w-full h-[269px] rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
+              className="bg-black bg-opacity-50 flex flex-col p-5  h-[269px]  rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
             >
               <div className="my-2">
                 <h3 className="font-bold text-xl text-center">{item.title}</h3>

@@ -5,41 +5,40 @@ import img_3 from "../assets/banner/img_cuarto_3.jpeg";
 import img_4 from "../assets/banner/img_cuarto_4.jpeg";
 import img_5 from "../assets/banner/img_cuarto_5.jpeg";
 import { Carousel } from "flowbite-react";
-
 const _Carousel = () => {
   return (
-    <Carousel className="red" >
+    <Carousel className="red">
       <img
         loading="lazy"
-        className="object-bottom z-0 img_corousel"
+        className="object-bottom z-0 h-[300px] sm:h-auto w-full img_corousel"
         src={img_1}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 img_corousel"
+        className="object-bottom z-0 h-[300px] sm:h-auto w-full img_corousel"
         src={img_2}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 img_corousel"
+        className="object-bottom z-0 h-[300px] sm:h-auto w-full img_corousel"
         src={img_3}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 img_corousel"
+        className="object-bottom z-0 h-[300px] sm:h-auto img_corousel"
         src={img_4}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 img_corousel"
+        className="object-bottom z-0 h-[300px] sm:h-auto img_corousel"
         src={img_5}
         alt="..."
         style={{ position: "fixed" }}
