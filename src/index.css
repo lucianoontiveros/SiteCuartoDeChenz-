@@ -12,6 +12,10 @@
   box-shadow: 0 0 20px #67ddab; /* Brillo más intenso al pasar el cursor */
 }
 
+body {
+  background-color: black;
+}
+
 #root {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -37,7 +41,7 @@
   grid-auto-flow: dense;
   justify-items: center;
   background: linear-gradient(135deg, #1e90ff, #6a5acd, #8a2be2, #4b0082);
-  min-height: 90vh;
+  min-height: 82vh;
 }
 
 .red {
