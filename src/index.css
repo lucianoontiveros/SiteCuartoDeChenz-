@@ -36,10 +36,15 @@
   grid-template-rows: row dense;
   grid-auto-flow: dense;
   justify-items: center;
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(135deg, #1e90ff, #6a5acd, #8a2be2, #4b0082);
   min-height: 90vh;
 }
 
 .red {
   height: 300px;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
 }

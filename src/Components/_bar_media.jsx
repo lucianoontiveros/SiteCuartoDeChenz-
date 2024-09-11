@@ -8,7 +8,7 @@ import iconDiscord from "../assets/iconDiscord.png";
 const _bar_media = () => {
   return (
     <div
-      className="container flex  justify-center items-center sm:w-auto md:h-[400x] max-w-[1100px] sm:mt-0 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop
+      className="container flex justify-center items-center sm:w-auto md:h-[400x] max-w-[1100px] sm:mt-0 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop
     "
     >
       <a
