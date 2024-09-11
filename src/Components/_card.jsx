@@ -40,10 +40,11 @@ const _card = () => {
         <NavLink
           key={index}
           to={item.ruta}
+          className={"my-2 mx-2"}
         >
           <div
             key={index}
-            className="card flex flex-col justify-center w-[290px] max-w-[400px]  my-2 mx-2 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+            className="card flex flex-col justify-center w-[290px] max-w-[400px] my-2 mx-2 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
             style={{
               backgroundImage: `url(${item.tarjeta})`,
               backgroundSize: "cover",

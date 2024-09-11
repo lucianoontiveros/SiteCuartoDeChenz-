@@ -7,7 +7,7 @@ const Inicio = () => {
   return (
     <>
       <header>
-        <div className="contenedor container card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center min-w-[200px] h-[310px]">
+        <div className="contenedor container mt-2 card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center min-w-[200px] h-[310px]">
           <_Carousel />
           <img
             src={iconSite}
@@ -30,7 +30,7 @@ const Inicio = () => {
             </h1> */}
           </div>
         </div>
-        <nav className="my-4">
+        <nav className="my-8">
           <_bar_media />
         </nav>
         <main>
