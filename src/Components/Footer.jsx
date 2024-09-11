@@ -7,19 +7,21 @@ import iconDiscord from "../assets/iconDiscord.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto bg-gray-900 h-[10vh] text-white rounded ">
-      <div className=" items-center sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2024{" "}
-          <a
-            href="https://flowbite.com/"
-            className="hover:underline"
-          >
-            DevUtility™
-          </a>
-          . All Rights Reserved.
-        </span>
-        <div className="flex mt-4 justify-around sm:justify-center sm:mt-0">
+    <footer className="bg-gray-900 h-[10vh] text-white rounded ">
+      <div className="footer_elements items-center text-center">
+        <div className="footer_element_1">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2024{" "}
+            <a
+              href="https://flowbite.com/"
+              className="hover:underline"
+            >
+              DevUtility™
+            </a>
+            . All Rights Reserved.
+          </span>
+        </div>
+        <div className="footer_element_2 flex mt-4 justify-around sm:justify-center sm:mt-0">
           <a
             href="https://twitter.com/AgustnOntivero6"
             className=" text-gray-500 hover:text-gray-900 dark:hover:text-white"

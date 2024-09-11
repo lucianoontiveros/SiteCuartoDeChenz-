@@ -35,7 +35,7 @@ const _card = () => {
   ];
 
   return (
-    <div className="flex flex-col flex-wrap items-center justify-between sm:flex-row sm:justify-center sm:flex-wrap my-2">
+    <div className="flex flex-col flex-wrap items-center justify-between sm:flex-row sm:justify-center sm:flex-wrap">
       {data.map((item, index) => (
         <NavLink
           key={index}
@@ -53,12 +53,14 @@ const _card = () => {
           >
             <div
               key={index}
-              className="bg-black bg-opacity-50 flex flex-col p-5  h-[269px]  rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
+              className="bg-black bg-opacity-50 flex flex-col p-2  h-[269px]  rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
             >
-              <div className="my-2">
-                <h3 className="font-bold text-xl text-center">{item.title}</h3>
-              </div>
               <div>
+                <h3 className="logo px-8 font-bold text-xl text-center">
+                  {item.title}
+                </h3>
+              </div>
+              <div className=" h-auto text-center">
                 <p>{item.descripcion}</p>
               </div>
             </div>

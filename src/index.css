@@ -48,7 +48,19 @@ body {
   height: 300px;
 }
 
-img {
-  background-position: center;
-  background-size: cover;
+.footer_elements {
+  display: grid;
+  min-height: 7vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "footer1 footer1 footer1 footer1" "footer2 footer2 footer2 footer2";
+  justify-items: center;
+  justify-content: center;
+}
+
+.footer_element_1 {
+  grid-area: footer1;
+}
+
+.footer_element_2 {
+  grid-area: footer2;
 }
