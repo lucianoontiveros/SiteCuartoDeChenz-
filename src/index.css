@@ -23,6 +23,8 @@ body {
   font-style: normal;
 }
 
+/* Apartadode inicio */
+
 .logo {
   background-color: rgba(0, 0, 0, 0.5);
   border: solid 3px white;
@@ -41,7 +43,7 @@ body {
   grid-auto-flow: dense;
   justify-items: center;
   background: linear-gradient(135deg, #1e90ff, #6a5acd, #8a2be2, #4b0082);
-  min-height: 82vh;
+  min-height: 80vh;
 }
 
 .red {
@@ -50,7 +52,7 @@ body {
 
 .footer_elements {
   display: grid;
-  min-height: 7vh;
+  min-height: 6vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "footer1 footer1 footer1 footer1" "footer2 footer2 footer2 footer2";
   justify-items: center;
