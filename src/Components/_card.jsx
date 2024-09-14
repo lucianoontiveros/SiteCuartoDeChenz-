@@ -31,7 +31,7 @@ const _card = () => {
   ];
 
   return (
-    <div className="  flex flex-col align-middle flex-wrap justify-around sm:flex-row  sm:flex-wrap">
+    <div className=" flex flex-col align-middle flex-wrap justify-around sm:flex-row  sm:flex-wrap">
       {data.map((item, index) => (
         <NavLink
           key={index}

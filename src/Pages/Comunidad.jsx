@@ -2,7 +2,7 @@ import React from "react";
 import _card_presentation from "../Components/_card_presentation";
 const Comunidad = () => {
   return (
-    <article className="container">
+    <article>
       <_card_presentation />
     </article>
   );
