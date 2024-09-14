@@ -23,6 +23,8 @@ body {
   font-style: normal;
 }
 
+/* Apartado de inicio */
+
 .logo {
   background-color: rgba(0, 0, 0, 0.5);
   border: solid 3px white;
@@ -41,7 +43,7 @@ body {
   grid-auto-flow: dense;
   justify-items: center;
   background: linear-gradient(135deg, #1e90ff, #6a5acd, #8a2be2, #4b0082);
-  min-height: 82vh;
+  min-height: 80vh;
 }
 
 .red {
@@ -50,7 +52,7 @@ body {
 
 .footer_elements {
   display: grid;
-  min-height: 7vh;
+  min-height: 6vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "footer1 footer1 footer1 footer1" "footer2 footer2 footer2 footer2";
   justify-items: center;
@@ -63,4 +65,48 @@ body {
 
 .footer_element_2 {
   grid-area: footer2;
+}
+
+/* Apartado de comunidad */
+
+.comunidad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "comunidad_element comunidad_element2 comunidad_element3";
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  justify-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.comunidad_element {
+  grid-area: comunidad_element;
+}
+
+.comunidad_element2 {
+  grid-area: comunidad_element2;
+}
+
+.comunidad_element3 {
+  grid-area: comunidad_element3;
+}
+
+@media (max-width: 1500px) {
+  .comunidad {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "comunidad_element comunidad_element2"
+      "comunidad_element3 comunidad_element3";
+  }
+}
+
+@media (max-width: 790px) {
+  .comunidad {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "comunidad_element2"
+      "comunidad_element"
+      "comunidad_element3";
+  }
 }

@@ -22,9 +22,7 @@ const Inicio = () => {
             <h1 className="logo px-3 hidden sm:block text-indigo-300 md:text-mintGreen xl:text-skyBlue text-2xl sm:text-6xl md:text-7xl xl:text-8xl font-mono uppercase  hover:animate-pulse-icon">
               STUDY WITH ME
             </h1>
-            <span className="hidden uppercase sm:block text-white text-2xl text-center">
-              Un espacio para vos
-            </span>
+
             {/* <h1 className="text-skyBlue mt-20 sm:hidden text-2xl sm:text-6xl md:text-7xl xl:text-9xl font-mono uppercase">
               4TODECHENZ
             </h1> */}
