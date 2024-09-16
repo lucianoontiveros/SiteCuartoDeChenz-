@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="footer_elements items-center text-center">
         <div className="footer_element_1">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            Un espacio creado para hacernos compañía y ser testigos de tus
-            logros
+            Un espacio diseñado para acompañarnos y avanzar juntos hacia
+            nuestros objetivos
           </span>
         </div>
         <div className="footer_element_2 flex mt-4 justify-around sm:justify-center sm:mt-0">

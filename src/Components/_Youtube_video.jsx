@@ -8,6 +8,7 @@ const _Youtube_video = ({ embedId }) => (
     src={`https://www.youtube.com/embed/${embedId}`}
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     title="Embedded youtube"
+    loading="lazy"
   />
 );
 

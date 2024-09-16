@@ -32,21 +32,21 @@ export const _card_presentation = () => {
         href="#"
       >
         <h5 className="text-2xl text-center md:text-4xl my-3 font-bold text-gray-900 ">
-          Una comunidad de personas bellas.
+          Bienvenidas personitas bellas.
         </h5>
 
         <p className="font-semibold text-xs xl:text-base ">
-          "Mi única finalidad es que puedas encontrar un espacio donde sentirte
-          en compañía, en comodidad y adquieras la constancia que cada día se
-          necesita para estar más cerca de aquello que quieres lograr. Seremos
-          testigo de cada logro que consigas, sabiendo que el esfuerzo y
-          compromiso es tuyo. No nos llevaremos el crédito, pero sí la
-          confirmación de que, si tú puedes, nosotros también.
+          "Ojalá que aquí encuentres un espacio donde sentirte en compañía, en
+          comodidad y adquieras la constancia que cada día se necesita para
+          estar más cerca de aquello que quieres lograr. Seremos testigo de cada
+          logro que consigas, sabiendo que el esfuerzo y compromiso es tuyo. No
+          nos llevaremos el crédito, pero sí la confirmación de que, si tú
+          puedes, nosotros también.
         </p>
         <p className="font-semibold text-xs xl:text-base ">
           Aquí te brindamos un lugar de buenas vibras, fundamentado en el
           respeto, donde podrás compartir tus metas, celebrar tus logros y
-          recibir apoyo de la comunidad."
+          recibir apoyo de la comunidad en lo que podamos ayudarte."
         </p>
         <p className="font-semibold text-xs xl:text-base">
           Mi nombres es Luciano... Chenz para los amigos y te invito a compartir
