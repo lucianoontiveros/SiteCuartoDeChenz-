@@ -89,6 +89,7 @@ body {
 }
 
 .comunidad_element3 {
+  width: 100%;
   grid-area: comunidad_element3;
 }
 
@@ -112,6 +113,26 @@ body {
   grid-area: section_2;
 }
 
+/*avisos */
+.articulo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "articulo_media articulo_aviso articulo_aviso";
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  justify-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.articulo_media {
+  grid-area: articulo_media;
+}
+
+.articulo_aviso {
+  grid-area: articulo_aviso;
+}
+
 @media (max-width: 1500px) {
   .comunidad {
     grid-template-columns: repeat(2, 1fr);
@@ -123,6 +144,15 @@ body {
   .emisiones {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "section_1 section_1" "section_2 section_2";
+  }
+
+  .articulo {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "articulo_media articulo_media" "articulo_aviso articulo_aviso";
+  }
+
+  .articulo_video {
+    display: none;
   }
 }
 

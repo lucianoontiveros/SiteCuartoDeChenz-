@@ -60,9 +60,19 @@ export const _card_presentation = () => {
           enorgullece estar en compañía de personas tan maravillosas.
         </p>
       </Card>
-      <div className="comunidad_element3 flex flex-col justify-around items-center w-full ">
-        <_Youtube_video embedId="WkmVQohDvK8" />
-        <_Youtube_video embedId="c2menI72qfo" />
+      <div className="comunidad_element3  ">
+        <Card className="bg-dark max-h-[500px] mt-5 text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
+          <_Youtube_video
+            embedId="WkmVQohDvK8"
+            atribute="w-[100%] min-h-[300px]"
+          />
+        </Card>
+        <Card className="bg-dark max-h-[500px] mt-5 text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
+          <_Youtube_video
+            embedId="c2menI72qfo"
+            atribute="w-[100%] min-h-[300px]"
+          />
+        </Card>
       </div>
     </div>
   );
