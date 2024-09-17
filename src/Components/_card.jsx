@@ -10,40 +10,37 @@ const _card = () => {
   const data = [
     {
       title: "HORARIO",
-      descripcion: "Conoce nuestros horarios de transmisión",
       tarjeta: tarjeta1,
       ruta: "/Horarios",
     },
     {
       title: "NOVEDADES",
-      descripcion: "Enterarte de las novedades de nuestra comunidad",
       tarjeta: tarjeta2,
       ruta: "/avisos",
     },
     {
       title: "COMANDOS",
-      descripcion: "Estos son los comandos del chat de twitch",
       tarjeta: tarjeta3,
       ruta: "/comandos",
     },
     {
       title: "TUTORIALES",
-      descripcion: "Un espacio para comunicar y compartir. Una invitación.",
       tarjeta: tarjeta4,
       ruta: "/tutoriales",
     },
   ];
 
   return (
-    <div className="flex flex-col flex-wrap items-center justify-between sm:flex-row sm:justify-center sm:flex-wrap my-2">
+    <div className=" flex flex-col align-middle flex-wrap justify-around sm:flex-row  sm:flex-wrap">
       {data.map((item, index) => (
         <NavLink
           key={index}
           to={item.ruta}
+          className={"my-2 mx-2"}
         >
           <div
             key={index}
-            className="card flex flex-col justify-center  my-2 mx-2 w-[250px] h-[200px] sm:w-[280px] md:w-[340px] xl:w-[260px]  animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop items-center bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
+            className="card bg-black bg-opacity-50 flex flex-col justify-center w-[290px] max-w-[400px] my-2 mx-2 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]"
             style={{
               backgroundImage: `url(${item.tarjeta})`,
               backgroundSize: "cover",
@@ -52,13 +49,12 @@ const _card = () => {
           >
             <div
               key={index}
-              className="bg-black bg-opacity-50 flex flex-col p-5 w-full h-[269px] rounded-xl justify-around items-center text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
+              className=" flex flex-col p-2  h-[269px]  rounded-xl justify-end text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
             >
-              <div className="my-2">
-                <h3 className="font-bold text-xl text-center">{item.title}</h3>
-              </div>
               <div>
-                <p>{item.descripcion}</p>
+                <h3 className="logo px-8 font-bold text-xl text-center">
+                  {item.title}
+                </h3>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import iconSite from "../assets/IconSite.png";
+import iconSite from "../assets/icon.png";
 import { Navbar } from "flowbite-react";
 
 const getNavLinkClass = (isActive) => {
@@ -12,14 +12,14 @@ const getNavLinkClass = (isActive) => {
 const _Navbar = () => {
   return (
     <Navbar
-      className="bg-dark flex justify-center "
+      className="bg-dark flex justify-center w-full"
       fluid
       rounded
     >
       <Navbar.Brand href="https://flowbite-react.com">
         <NavLink
           to="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="flex w-full items-center space-x-3 my-2 rtl:space-x-reverse"
         >
           <img
             src={iconSite}
@@ -27,8 +27,8 @@ const _Navbar = () => {
             alt="Cuarto de Chenz"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
-            <span className=" mr-5 uppercase text-mintGreen sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue">
-              4TODECHENZ
+            <span className="logo animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop mr-5 px-2 uppercase text-mintGreen sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue">
+              CUARTO DE CHENZ
             </span>
           </span>
         </NavLink>

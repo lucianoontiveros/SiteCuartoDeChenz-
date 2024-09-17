@@ -716,8 +716,8 @@ const Comandos = () => {
         image={siyase}
       />
       <_card_gallery
-        name={"tute"}
-        image={tute}
+        name={"tutu"}
+        image={tutu}
       />
       <_card_gallery
         name={"tequedo"}
