@@ -6,7 +6,7 @@ import _bar_media from "../Components/_bar_media";
 const Inicio = () => {
   return (
     <>
-      <header>
+      <header className="animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop bg-gray-900 border-[#D0F8CF] sm:border-[#D6C2F7]">
         <div className="contenedor container mt-2 card animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop flex justify-center items-center min-w-[200px] h-[310px]">
           <_Carousel />
           <img

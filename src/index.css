@@ -89,6 +89,7 @@ body {
 }
 
 .comunidad_element3 {
+  width: 100%;
   grid-area: comunidad_element3;
 }
 
@@ -112,6 +113,61 @@ body {
   grid-area: section_2;
 }
 
+/*avisos */
+.articulo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "articulo_media articulo_aviso articulo_aviso";
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  justify-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.articulo_media {
+  grid-area: articulo_media;
+}
+
+.articulo_aviso {
+  grid-area: articulo_aviso;
+}
+
+/*tutoriales */
+.tutoriales {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "tutorial_card tutorial_card1 tutorial_media"
+    "tutorial_comandos tutorial_comandos tutorial_media"
+    "tutorial_comandos1 tutorial_comandos1 tutorial_media";
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
+  justify-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tutorial_comandos {
+  grid-area: tutorial_comandos;
+}
+
+.tutorial_comandos1 {
+  grid-area: tutorial_comandos1;
+}
+
+.tutorial_card {
+  grid-area: tutorial_card;
+}
+
+.tutorial_card1 {
+  grid-area: tutorial_card1;
+}
+
+.tutorial_media {
+  grid-area: tutorial_media;
+}
+
 @media (max-width: 1500px) {
   .comunidad {
     grid-template-columns: repeat(2, 1fr);
@@ -124,6 +180,25 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "section_1 section_1" "section_2 section_2";
   }
+
+  .articulo {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "articulo_media articulo_media" "articulo_aviso articulo_aviso";
+  }
+
+  .articulo_video {
+    display: none;
+  }
+
+  .tutoriales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "tutorial_card tutorial_media"
+      "tutorial_comandos tutorial_media"
+      "tutorial_card1 tutorial_media "
+      "tutorial_comandos1 tutorial_media";
+  }
 }
 
 @media (max-width: 790px) {
@@ -133,5 +208,16 @@ body {
       "comunidad_element2"
       "comunidad_element"
       "comunidad_element3";
+  }
+
+  .tutoriales {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "tutorial_card "
+      "tutorial_comandos"
+      "tutorial_card1 "
+      "tutorial_comandos1"
+      "tutorial_media";
   }
 }

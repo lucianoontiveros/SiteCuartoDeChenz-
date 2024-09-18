@@ -2,9 +2,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const _Youtube_video = ({ embedId }) => (
+const _Youtube_video = ({ embedId, atribute }) => (
   <iframe
-    className="video-responsive my-2 h-[300px]  w-[100%] md:min-h-[45%] "
+    className={`video-responsive my-2 ${atribute}`}
     src={`https://www.youtube.com/embed/${embedId}`}
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     title="Embedded youtube"
