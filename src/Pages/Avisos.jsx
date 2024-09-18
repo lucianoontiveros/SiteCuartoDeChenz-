@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "flowbite-react";
+import { Button } from "flowbite-react";
 
 import _buttom_travel from "../Components/_buttom_travel";
 import Totoro_image from "../assets/Totoro_article_1.png";
@@ -97,6 +98,17 @@ const About = () => {
         </p>
         <p className="mt-2">un abrazo.</p>
         <spam className="mt-3">Chenz</spam>
+        <div className="mt-5">
+          <Button gradientDuoTone="cyanToBlue">
+            <a
+              href="https://discord.gg/84FYb8TWB7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Avisos anteriores
+            </a>
+          </Button>
+        </div>
       </section>
     </article>
   );
