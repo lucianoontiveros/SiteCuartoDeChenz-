@@ -26,6 +26,9 @@ const Tutoriales = () => {
         </Card>
 
         <Card className="tutorial_comandos p-0 bg-dark border-none">
+          <h5 className="text-2xl font-bold text-gray-900">
+            COMANDOS PARA REGISTRAR ADMINISTRAR TAREAS
+          </h5>
           <p>
             <span className="tutorial_comandos bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">
               !tarea + más la descripción de la tarea
@@ -105,8 +108,9 @@ const Tutoriales = () => {
         {/* aqui esta la otra card  */}
 
         <Card
-          className=" tutorial_card1 mb-2 mx-1 bg-dark text-xs xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
+          className=" tutorial_card1 flex justify-center mb-2 mx-1 bg-dark text-xs xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100"
           imgSrc={totoro_tutorial_datos}
+          width="100%"
           horizontal
         >
           <h5 className="tmb-2 text-2xl font-bold tracking-tight ">
@@ -119,6 +123,9 @@ const Tutoriales = () => {
         </Card>
 
         <Card className="tutorial_comandos1 p-0 bg-dark border-none ">
+          <h5 className="text-2xl font-bold text-gray-900">
+            COMANDOS PARA REGISTRAR INFO PERSONAL
+          </h5>
           <p>
             <span className="bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">
               !nacimiento + dd-mm
@@ -171,7 +178,7 @@ const Tutoriales = () => {
           </p>
         </Card>
 
-        <div className="tutorial_media">
+        <div className="tutorial_media max-w-[500px] min-h0">
           <Card
             className=" mx-2 my-3 order-2 bg-dark  text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 animate-dance-movil sm:animate-dance-tablet md:animate-dance-latop xl:animate-dance-desktop"
             renderImage={() => (
@@ -200,6 +207,7 @@ const Tutoriales = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              height="300px"
             ></iframe>
             <h5 className="tmb-2 text-2xl font-bold tracking-tight">
               TUTORIAL BRUNITOPET
@@ -216,6 +224,7 @@ const Tutoriales = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              height="300px"
             ></iframe>
             <h5 className="tmb-2 text-2xl font-bold tracking-tight">
               TUTORIAL DISCORD
