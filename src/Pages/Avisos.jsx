@@ -25,7 +25,7 @@ const About = () => {
       </section>
 
       <section className="articulo_aviso my-5 mx-5 text-xs xl:text-base  text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
-        <h1 className="text-2xl font-bold mb-2">Una gran semana por delante</h1>
+        <h1 className="text-2xl font-bold mb-2">Se vienen más cambios</h1>
         <span className="bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">
           20/09/204 for Chenz
         </span>
