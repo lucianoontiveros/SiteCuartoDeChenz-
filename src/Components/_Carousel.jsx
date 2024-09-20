@@ -1,45 +1,39 @@
 import React from "react";
-import img_1 from "../assets/banner/img_cuarto_1.jpeg";
-import img_2 from "../assets/banner/img_cuarto_2.jpeg";
-import img_3 from "../assets/banner/img_cuarto_3.jpeg";
-import img_4 from "../assets/banner/img_cuarto_4.jpeg";
-import img_5 from "../assets/banner/img_cuarto_5.jpeg";
+
+import img_6 from "../assets/banner/Banner_cuartodechenz.png";
+import img_7 from "../assets/banner/Banner_cuartodechenz_1.png";
+import img_8 from "../assets/banner/Banner_cuartodechenz_2.png";
+import img_9 from "../assets/banner/Banner_cuartodechenz_3.png";
+
 import { Carousel } from "flowbite-react";
 const _Carousel = () => {
   return (
-    <Carousel className="red card ">
+    <Carousel className="red card bg-black bg-opacity-50">
       <img
         loading="lazy"
-        className="object-bottom z-0 h-[320px] sm:h-auto w-full img_corousel"
-        src={img_1}
+        className=" object-bottom z-0  sm:h-auto w-full img_corousel relative overflow-hidden"
+        src={img_6}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 h-[320px] sm:h-auto w-full img_corousel"
-        src={img_2}
+        className="  object-bottom z-0  sm:h-auto w-full img_corousel relative overflow-hidden"
+        src={img_7}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 h-[320px] sm:h-auto w-full img_corousel"
-        src={img_3}
+        className="  object-bottom z-0  sm:h-auto w-full img_corousel relative overflow-hidden"
+        src={img_8}
         alt="..."
         style={{ position: "fixed" }}
       />
       <img
         loading="lazy"
-        className="object-bottom z-0 h-[320px] sm:h-auto img_corousel"
-        src={img_4}
-        alt="..."
-        style={{ position: "fixed" }}
-      />
-      <img
-        loading="lazy"
-        className="object-bottom z-0 h-[320px] sm:h-auto img_corousel"
-        src={img_5}
+        className="  object-bottom z-0  sm:h-auto w-full img_corousel relative overflow-hidden"
+        src={img_9}
         alt="..."
         style={{ position: "fixed" }}
       />

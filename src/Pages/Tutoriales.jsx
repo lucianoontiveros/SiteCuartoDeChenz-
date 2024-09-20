@@ -27,7 +27,7 @@ const Tutoriales = () => {
 
         <Card className="tutorial_comandos p-0 bg-dark border-none">
           <h5 className="text-2xl font-bold text-gray-900">
-            COMANDOS PARA REGISTRAR ADMINISTRAR TAREAS
+            COMANDOS PARA ADMINISTRAR TAREAS
           </h5>
           <p>
             <span className="tutorial_comandos bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm">

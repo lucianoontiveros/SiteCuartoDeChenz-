@@ -46,10 +46,6 @@ body {
   min-height: 80vh;
 }
 
-.red {
-  height: 300px;
-}
-
 .footer_elements {
   display: grid;
   min-height: 6vh;
@@ -202,6 +198,9 @@ body {
 }
 
 @media (max-width: 790px) {
+  .carousel {
+    display: none;
+  }
   .comunidad {
     grid-template-columns: 1fr;
     grid-template-areas:

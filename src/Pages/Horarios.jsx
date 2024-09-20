@@ -17,9 +17,12 @@ const Horarios = () => {
               Tenemos dos modalidades de emisión:
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              “Las modalidades están diseñados según las actividades diarias de
+              "Las modalidades están diseñadas según las actividades diarias de
               Chenz. Por la mañana, el bot emitirá automáticamente, mientras que
-              por la tarde, el mismo se encargará de la transmisión.”
+              por la tarde, el se encargará de llevar la transmisión. De todas
+              formas, contamos con un bot integrado en el chat que te ayudará a
+              gestionar tus tiempos y tareas. Para más información, consulta la
+              sección de Tutoriales."
             </p>
           </Card>
         </header>
