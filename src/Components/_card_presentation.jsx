@@ -36,28 +36,25 @@ export const _card_presentation = () => {
         </h5>
 
         <p className="font-semibold text-xs xl:text-base ">
-          "Ojalá que aquí encuentres un espacio donde sentirte en compañía, en
-          comodidad y adquieras la constancia que cada día se necesita para
-          estar más cerca de aquello que quieres lograr. Seremos testigo de cada
-          logro que consigas, sabiendo que el esfuerzo y compromiso es tuyo. No
-          nos llevaremos el crédito, pero sí la confirmación de que, si tú
-          puedes, nosotros también.
+          "Espero que aquí encuentres un lugar donde te sientas acompañado y
+          cómodo, y donde adquieras la constancia necesaria para acercarte cada
+          día más a tus metas. Seremos testigos de tus logros, reconociendo que
+          el esfuerzo y el compromiso son tuyos. No nos llevaremos el crédito,
+          pero sí la satisfacción de saber que si tú puedes, nosotros también.
         </p>
         <p className="font-semibold text-xs xl:text-base ">
-          Aquí te brindamos un lugar de buenas vibras, fundamentado en el
-          respeto, donde podrás compartir tus metas, celebrar tus logros y
-          recibir apoyo de la comunidad en lo que podamos ayudarte."
-        </p>
-        <p className="font-semibold text-xs xl:text-base">
-          Mi nombres es Luciano... Chenz para los amigos y te invito a compartir
-          nuestras largas jornadas."
+          Te ofrecemos un espacio de buenas vibras, basado en el respeto, donde
+          podrás compartir tus objetivos, celebrar tus éxitos y recibir el apoyo
+          de la comunidad en lo que necesites. Mi nombre es Luciano, aunque los
+          amigos me llaman Chenz, y te invito a unirte a nuestras largas
+          jornadas."
         </p>
 
         <p className="card p-2 mb-3 border font-normal text-center text-xs xl:text-base text-gray-700 ">
-          Este canal es la representación de una pequeña comunidad de
-          estudiantes, profesionales y freelancers que se reúnen para compartir
-          sus experiencias a través de diversos medios digitales. Nos
-          enorgullece estar en compañía de personas tan maravillosas.
+          Este canal representa a una pequeña comunidad de estudiantes,
+          profesionales y freelancers que se reúnen para compartir sus
+          experiencias a través de diversos medios digitales. Nos enorgullece
+          estar en compañía de personas tan maravillosas.
         </p>
       </Card>
       <div className="comunidad_element3  ">
