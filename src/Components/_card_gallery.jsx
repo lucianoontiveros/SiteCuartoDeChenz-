@@ -1,6 +1,6 @@
 import BotonCopiar from "../assets/utils/botonCopiar";
 
-const _card_gallery = ({ image, name }) => {
+const _card_gallery = ({ name, image }) => {
   return (
     <div>
       <div>
