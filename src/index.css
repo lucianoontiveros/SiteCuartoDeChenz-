@@ -137,7 +137,7 @@ body {
 .tutoriales {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "tutorial_card tutorial_card1 comados_predefinidos" "tutorial_media tutorial_media  comados_predefinidos";
+  grid-template-areas: "tutorial_card tutorial_card1 comados_predefinidos" "tutorial_media tutorial_media comados_predefinidos";
   grid-template-rows: auto;
   grid-auto-flow: dense;
   justify-items: center;
@@ -176,7 +176,7 @@ body {
 
   .tutoriales {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "tutorial_card tutorial_card1" "comados_predefinidos tutorial_media";
+    grid-template-areas: "tutorial_card tutorial_card1" "tutorial_media comados_predefinidos";
   }
 
   .emisiones {
