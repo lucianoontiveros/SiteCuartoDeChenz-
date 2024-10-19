@@ -129,19 +129,21 @@ body {
   grid-area: articulo_aviso;
 }
 
+.comados_predefinidos {
+  grid-area: comados_predefinidos;
+}
+
 /*tutoriales */
 .tutoriales {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "tutorial_card tutorial_card1 tutorial_media"
-    "tutorial_comandos tutorial_comandos tutorial_media"
-    "tutorial_comandos1 tutorial_comandos1 tutorial_media";
+  grid-template-areas: "tutorial_card tutorial_card1 comados_predefinidos" "tutorial_media tutorial_media comados_predefinidos";
   grid-template-rows: auto;
   grid-auto-flow: dense;
   justify-items: center;
   justify-content: center;
   gap: 1rem;
+  margin: 0;
 }
 
 .tutorial_comandos {
@@ -172,6 +174,11 @@ body {
       "comunidad_element3 comunidad_element3";
   }
 
+  .tutoriales {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "tutorial_card tutorial_card1" "tutorial_media comados_predefinidos";
+  }
+
   .emisiones {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "section_1 section_1" "section_2 section_2";
@@ -185,19 +192,9 @@ body {
   .articulo_video {
     display: none;
   }
-
-  .tutoriales {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "tutorial_card tutorial_media"
-      "tutorial_comandos tutorial_media"
-      "tutorial_card1 tutorial_media "
-      "tutorial_comandos1 tutorial_media";
-  }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 850px) {
   .carousel {
     display: none;
   }
@@ -214,9 +211,9 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "tutorial_card "
-      "tutorial_comandos"
       "tutorial_card1 "
-      "tutorial_comandos1"
-      "tutorial_media";
+      "comados_predefinidos"
+      "tutorial_media ";
+    justify-content: center;
   }
 }

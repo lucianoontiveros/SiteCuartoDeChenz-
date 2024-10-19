@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import iconSite from "../assets/icon.png";
 import { Navbar } from "flowbite-react";
 
@@ -10,17 +10,16 @@ const getNavLinkClass = (isActive) => {
 };
 
 const _Navbar = () => {
+  const location = useLocation();
+
   return (
     <Navbar
       className="bg-dark flex justify-center w-full"
       fluid
       rounded
     >
-      <Navbar.Brand href="https://flowbite-react.com">
-        <NavLink
-          to="/"
-          className="flex w-full items-center space-x-3 my-2 rtl:space-x-reverse"
-        >
+      <Navbar.Brand href="/">
+        <div className="flex w-full items-center space-x-3 my-2 rtl:space-x-reverse">
           <img
             src={iconSite}
             className="h-12 hidden sm:block "
@@ -31,61 +30,47 @@ const _Navbar = () => {
               CUARTO DE CHENZ
             </span>
           </span>
-        </NavLink>
+        </div>
       </Navbar.Brand>
       <div>
         <Navbar.Toggle className=" bg-mintGreen sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue" />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link>
-          <NavLink
-            to="/"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-            aria-current="page"
-          >
-            Inicio
-          </NavLink>
+        <Navbar.Link
+          href="/"
+          className={getNavLinkClass(location.pathname === "/")}
+        >
+          Inicio
         </Navbar.Link>
-
-        <Navbar.Link>
-          <NavLink
-            to="/Comunidad"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-          >
-            Comunidad
-          </NavLink>
+        <Navbar.Link
+          href="/Comunidad"
+          className={getNavLinkClass(location.pathname === "/Comunidad")}
+        >
+          Comunidad
         </Navbar.Link>
-        <Navbar.Link>
-          <NavLink
-            to="/Horarios"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-          >
-            Horarios
-          </NavLink>
+        <Navbar.Link
+          href="/Horarios"
+          className={getNavLinkClass(location.pathname === "/Horarios")}
+        >
+          Horarios
         </Navbar.Link>
-        <Navbar.Link>
-          <NavLink
-            to="/Avisos"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-          >
-            Avisos
-          </NavLink>
+        <Navbar.Link
+          href="/Avisos"
+          className={getNavLinkClass(location.pathname === "/Avisos")}
+        >
+          Avisos
         </Navbar.Link>
-        <Navbar.Link>
-          <NavLink
-            to="/Comandos"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-          >
-            Comandos
-          </NavLink>
+        <Navbar.Link
+          href="/Comandos"
+          className={getNavLinkClass(location.pathname === "/Comandos")}
+        >
+          Comandos
         </Navbar.Link>
-        <Navbar.Link>
-          <NavLink
-            to="/Tutoriales"
-            className={({ isActive }) => getNavLinkClass(isActive)}
-          >
-            Tutoriales
-          </NavLink>
+        <Navbar.Link
+          href="/Tutoriales"
+          className={getNavLinkClass(location.pathname === "/Tutoriales")}
+        >
+          Tutoriales
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
