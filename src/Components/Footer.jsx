@@ -7,7 +7,7 @@ import iconDiscord from "../assets/iconDiscord.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 h-[10vh] text-white rounded ">
+    <footer className="bg-gray-900 h-[10vh] text-white rounded">
       <div className="footer_elements items-center text-center">
         <div className="footer_element_1">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">

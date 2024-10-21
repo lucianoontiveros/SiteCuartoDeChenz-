@@ -9,9 +9,9 @@ const Layout = () => {
 
   return (
     <>
-      <div className="w-full bg-[#0d030e]">
+      <div className="bg-[#0d030e]">
         <_Navbar />
-        <div className="layout_contenedor p-3">
+        <div className="layout_contenedor p-7">
           {/* Renderiza el componente Loading solo si la navegación está en estado 'loading' */}
           {navigation.state === "loading" && <Loading />}
           <Outlet /> {/* Renderiza el contenido de las rutas anidadas */}

@@ -7,8 +7,8 @@ import Totoro_image from "../assets/Totoro_article_1.png";
 import _Youtube_video from "../Components/_Youtube_video";
 const About = () => {
   return (
-    <article className="articulo">
-      <section className="articulo_media flex flex-col">
+    <article className="articulo mt-20">
+      <section className="articulo_media flex flex-col ">
         <Card className=" bg-dark max-h-[500px] mt-5 text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100">
           <img
             className="rounded-lg m-0 p-0 max-h-[450px] "

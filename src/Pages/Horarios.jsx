@@ -6,7 +6,7 @@ import _bar_media from "../Components/_bar_media";
 
 const Horarios = () => {
   return (
-    <article className="emisiones p-1">
+    <article className="emisiones mt-3">
       <section className="section_1 animate-dance-movil  flex justify-center flex-wrap ">
         <header className="flex w-auto">
           <Card

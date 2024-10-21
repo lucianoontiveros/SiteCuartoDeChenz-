@@ -4,10 +4,10 @@ import totoro_tutorial from "../Components_Tutoriales/totoro_tutorial.jpg";
 
 function Tutorial_Card() {
   const card_styles =
-    "w-full bg-dark text-xs px-2 mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
+    "w-full bg-dark text-xs mt-3 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
 
   return (
-    <div className="tutorial_card">
+    <div className="tutorial_card size">
       <Card
         className={card_styles}
         imgSrc={totoro_tutorial}

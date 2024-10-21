@@ -194,7 +194,7 @@ body {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 760px) {
   .carousel {
     display: none;
   }
@@ -215,5 +215,11 @@ body {
       "comados_predefinidos"
       "tutorial_media ";
     justify-content: center;
+   
+  }
+
+  .size {
+    width: auto;
+    max-width: 340px;
   }
 }
