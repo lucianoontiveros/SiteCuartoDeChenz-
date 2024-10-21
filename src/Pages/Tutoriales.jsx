@@ -8,7 +8,7 @@ import Tutorial_media_card from "../Components/Components_Tutoriales/Tutorial_me
 const Tutoriales = () => {
   return (
     <>
-      <div className="tutoriales">
+      <div className="tutoriales min-w-[250px]">
         <Tutorial_Card />
         <Tutorial_card_1 />
         <Comandos_predefinidos_card />
