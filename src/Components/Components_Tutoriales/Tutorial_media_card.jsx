@@ -5,7 +5,7 @@ import _buttom_travel from "../_buttom_travel";
 
 function Tutorial_media_card() {
   const card_styles =
-    "bg-dark text-xs mx-1 w-full px-2 mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
+    "bg-dark text-xs mx-1 w-full  mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
 
   return (
     <div className="tutorial_media flex flex-row w-full flex-wrap  justify-center ">
