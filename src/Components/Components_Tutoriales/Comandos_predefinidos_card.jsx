@@ -4,7 +4,7 @@ import Totoro_article_2 from "../Components_Tutoriales/Totoro_article_2.png";
 
 function Comandos_predefinidos_card() {
   const card_styles =
-    "w-full bg-dark text-xs px-2 mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
+    "w-full bg-dark text-xs mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
   const span_styles =
     "bg-green-200 sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue hover:bg-zinc-100 text-green-800 font-medium me-2 px-2.5 py-0.5 rounded text-sm";
   const activities = [
@@ -84,7 +84,7 @@ function Comandos_predefinidos_card() {
   };
 
   return (
-    <div className="comados_predefinidos">
+    <div className="comados_predefinidos size">
       <Card
         className={card_styles}
         imgSrc={Totoro_article_2}

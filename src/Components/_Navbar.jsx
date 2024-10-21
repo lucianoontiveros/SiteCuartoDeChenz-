@@ -3,14 +3,16 @@ import { useLocation } from "react-router-dom";
 import iconSite from "../assets/icon.png";
 import { Navbar } from "flowbite-react";
 
+// Función para determinar las clases CSS basadas en si el enlace está activo o no
 const getNavLinkClass = (isActive) => {
   return isActive
-    ? "block nav-link bg-gray-800  py-2 px-3 md:p-0 rounded  underline text-white  md:bg-transparent underline-green-200 sm:underline-indigo-300 md:underline-mintGreen xl:underline-skyBlue  active"
-    : "block nav-link text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue  py-2 px-3 md:p-0 rounded md:bg-transparent";
+    ? "block nav-link bg-gray-800 py-2 px-3 md:p-0 rounded underline text-white md:bg-transparent underline-green-200 sm:underline-indigo-300 md:underline-mintGreen xl:underline-skyBlue active"
+    : "block nav-link text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue py-2 px-3 md:p-0 rounded md:bg-transparent";
 };
 
+// Componente del Navbar
 const _Navbar = () => {
-  const location = useLocation();
+  const location = useLocation(); // Hook para obtener la ruta actual
 
   return (
     <Navbar
@@ -18,11 +20,12 @@ const _Navbar = () => {
       fluid
       rounded
     >
+      {/* Marca del Navbar con logo */}
       <Navbar.Brand href="/">
         <div className="flex w-full items-center space-x-3 my-2 rtl:space-x-reverse">
           <img
             src={iconSite}
-            className="h-12 hidden sm:block "
+            className="h-12 hidden sm:block"
             alt="Cuarto de Chenz"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
@@ -32,10 +35,15 @@ const _Navbar = () => {
           </span>
         </div>
       </Navbar.Brand>
+
+      {/* Toggle del Navbar para vista móvil */}
       <div>
-        <Navbar.Toggle className=" bg-mintGreen sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue" />
+        <Navbar.Toggle className="bg-mintGreen sm:bg-indigo-300 md:bg-mintGreen xl:bg-skyBlue" />
       </div>
+
+      {/* Colapso del Navbar con enlaces */}
       <Navbar.Collapse>
+        {/* Enlaces del menú */}
         <Navbar.Link
           href="/"
           className={getNavLinkClass(location.pathname === "/")}

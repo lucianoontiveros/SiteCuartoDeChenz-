@@ -1,5 +1,4 @@
 import _Carousel from "../Components/_Carousel";
-import iconSite from "../assets/icon.png";
 import _card from "../Components/_card";
 import _bar_media from "../Components/_bar_media";
 
