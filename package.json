@@ -17,8 +17,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "6.4"
   },
-  "rewrites": 
-    { "source": "/(.*)", "destination": "/" },
   "devDependencies": {
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
