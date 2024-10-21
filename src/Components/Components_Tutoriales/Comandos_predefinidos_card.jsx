@@ -84,7 +84,7 @@ function Comandos_predefinidos_card() {
   };
 
   return (
-    <div className="comados_predefinidos size">
+    <div className="comados_predefinidos mt-3 size">
       <Card
         className={card_styles}
         imgSrc={Totoro_article_2}

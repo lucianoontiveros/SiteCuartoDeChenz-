@@ -4,7 +4,7 @@ import totoro_tutorial_datos from "../Components_Tutoriales/totoro_tutorial_dato
 
 function Tutorial_card_1() {
   const card_styles =
-    "w-full bg-dark text-xs mt-2 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
+    "w-full bg-dark text-xs mt-3 xl:text-base text-green-200 sm:text-indigo-300 md:text-mintGreen xl:text-skyBlue hover:text-zinc-100 ";
 
   return (
     <div className="tutorial_card1 size ">
